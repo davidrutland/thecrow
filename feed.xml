@@ -3,7 +3,7 @@
     <title>The Crow</title>
     <link href="https://thecrow.uk/feed.xml" rel="self" />
     <link href="https://thecrow.uk" />
-    <updated>2025-07-14T14:18:43+01:00</updated>
+    <updated>2025-07-14T17:11:55+01:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -57,6 +57,64 @@
 <h2>Should you read Service Model by Adrian Tchaikovsky?</h2>
 <p>In a word, yes. The Crow is giving Service Model a <strong>5/5</strong> rating. You can b<a href="https://amzn.to/44KLnHj" target="_blank" rel="noopener noreferrer">uy the book as either an e-book, physical media, or an audiobook from Amazon</a> (affiliate link).</p>
 <p>For the avoidance doubt, this review was <a href="https://thecrow.uk/not-by-ai-a-badge-to-say-youre-mostly-human/">written by a human, not by AI</a>.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>The Gamebox 300 is a Game Boy Color - with extras</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://thecrow.uk/gamebox-300-barrels-of-emulated-fun-with-some-significant-drawbacks/"/>
+        <id>https://thecrow.uk/gamebox-300-barrels-of-emulated-fun-with-some-significant-drawbacks/</id>
+        <media:content url="https://thecrow.uk/media/posts/1/gamebox.png" medium="image" />
+            <category term="Stuff"/>
+            <category term="Retro"/>
+            <category term="Hardware"/>
+            <category term="Emulation"/>
+            <category term="Cool Things"/>
+
+        <updated>2025-06-12T12:23:00+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://thecrow.uk/media/posts/1/gamebox.png" alt="Damacoola Gamebox 300 with a zebra sticker, showing MAME screen. " />
+                    Walk past a GB300 lying on a table, and you'll be immediately overcome by the urge to pick it up and start playing Pokemon. The similarities to a Game Boy Color are apparent straight away. There's the brightly coloured case (or there would be if&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://thecrow.uk/media/posts/1/gamebox.png" class="type:primaryImage" alt="Damacoola Gamebox 300 with a zebra sticker, showing MAME screen. " /></p>
+                <p>Walk past a GB300 lying on a table, and you'll be immediately overcome by the urge to pick it up and start playing Pokemon.</p>
+<p>The similarities to a Game Boy Color are apparent straight away. There's the brightly coloured case (or there would be if we hadn't bought a black one), the small screen, the D-pad, and the familiar selection of buttons in the right places. If do you notice a difference, it's that the speaker grille is more reminiscent of the OG Game Boy than its successors. </p>
+<p>And in the age of rechargeables and fast power delivery, you'll eventually find that you still have to change the batteries.</p>
+<h2>Gamebox 300 is a retro pirate's dream machine</h2>
+<figure class="post__image"><img loading="lazy"  src="https://thecrow.uk/media/posts/1/gamebox_recent_history.png" alt="Gamebox 300 history menu with game titles" width="1600" height="800" sizes="(max-width: 48em) 100vw, 768px" srcset="https://thecrow.uk/media/posts/1/responsive/gamebox_recent_history-xs.png 300w ,https://thecrow.uk/media/posts/1/responsive/gamebox_recent_history-sm.png 480w ,https://thecrow.uk/media/posts/1/responsive/gamebox_recent_history-md.png 768w ,https://thecrow.uk/media/posts/1/responsive/gamebox_recent_history-lg.png 1024w ,https://thecrow.uk/media/posts/1/responsive/gamebox_recent_history-xl.png 1360w ,https://thecrow.uk/media/posts/1/responsive/gamebox_recent_history-2xl.png 1600w"></figure>
+<p>Inspect the box of this pseudo-Game Boy comes in, and you'll notice that it actually says "Gamebox 300 Seven Simulator 6000+," and this latter number refers to the number of games that come preloaded on the bundled micro SD card. And unlike the models that you might find in your local Home Bargains or B &amp; M, most of these are titles you'll recognise, and that you may have already played.</p>
+<p>A quick perusal shows us all of the Pokemon titles through to third gen, various fighting games including the Street Fighter and Mortal Kombat series, Civilization, the Road Rash saga, and even Sim City.</p>
+<p>This is because - if you haven't already guessed - the Gamebox 300 is an emulation platform, with support for the NES, SNES, Game Boy, Game Boy Color, Game Boy Advance, MAME, and PCEngine.</p>
+<p>Handheld dedicated emulation stations are not a new thing, and we've previously covered <a href="https://thecrow.uk/cheap-portable-retro-gaming-with-a-hated-handheld/">using the Leapfrog Leapster GS as a retro gaming platform</a>, but the differences between the two are plenty.</p>
+<p>First up is the convenience of those 6000+ pre-loaded titles. Sure, antique console ROMs are easy enough to get hold of, but having them tested and ready to go is valuable in itself. Just turn the thing on and get going.</p>
+<p>The Game Boy-esque form-factor is also an improvement over the Leapster. It's easy to fit into your back pocket, and whip out for a few moments of fun while waiting in the queue at Aldi.</p>
+<p>Menu systems are uncomplicated and easy to navigate, and you can browse your stored ROMs by platform, use the handy search function, or even browse your recent history to pick up where you left off.</p>
+<p>Potentially best of all, the console has composite video out, meaning you can hook it up to your TV and play on the big screen. </p>
+<p>With the supplied rechargeable battery, we managed to play for around eight hours. Not in a single sitting, you understand - we do have other things to do. </p>
+<h2>Great execution, but some pain points</h2>
+<p>You'll note that while we have mentioned rechargeable batteries, we haven't yet mentioned the means by which you charge them.</p>
+<p>The Game Box 300 is equipped with a USB-C port on the right-hand-side of its top edge - it's a standard feature of most gadgets in 2025 - and a step up from the four AAs you need to power the Leapster.</p>
+<p>It also comes with a (very) short USB-C cable.</p>
+<p>Use the supplied cable, or a high-end dedicated PD cable, and the Gamebox will charge resonably quick and without problems. If you use an intermediate grade cable, the charging circuit will die. It will never work again.</p>
+<figure class="post__image"><img loading="lazy"  src="https://thecrow.uk/media/posts/1/gamebox_battery_18650.png" alt="An 18650 battery in the gamebox" width="1600" height="800" sizes="(max-width: 48em) 100vw, 768px" srcset="https://thecrow.uk/media/posts/1/responsive/gamebox_battery_18650-xs.png 300w ,https://thecrow.uk/media/posts/1/responsive/gamebox_battery_18650-sm.png 480w ,https://thecrow.uk/media/posts/1/responsive/gamebox_battery_18650-md.png 768w ,https://thecrow.uk/media/posts/1/responsive/gamebox_battery_18650-lg.png 1024w ,https://thecrow.uk/media/posts/1/responsive/gamebox_battery_18650-xl.png 1360w ,https://thecrow.uk/media/posts/1/responsive/gamebox_battery_18650-2xl.png 1600w"></figure>
+<p>When this inevitably happens, you have the option of unscrewing and opening the back to remove and charge the 800 mAH 18650 that you'll find within.</p>
+<p>For an old-school vape fiend like the Crow, this isn't a problem as we have a load of compatible charging equipment. In fact, it's a great opportunity to swap out the the low-capacity unit for a higher-rated 3000 mAH battery. People without an array of spare 18650 chargers to hand, though, will be out of luck.</p>
+<p>Saving from within the games themselves also seems to be impossible. so if you're merrily progressing through your RPG of choice (Final Fantasy III, natch), and saving using the inbuilt mechanism, you'll find that after rebooting the system, your progress is gone. This isn't the end of the world, as its possible to save the entire system state using the console menu, and you'll have four save slots for each game.</p>
+<p>Our final gripe - and this relates solely to using the Gamebox as a Game Boy substitute - is the lack of a link option. You can't connect to another Gamebox owner to trade Pokemon, meaning that some evolutions are out of reach.</p>
+<h2>It's hard to get hold of a Gamebox 300</h2>
+<figure class="post__image"><img loading="lazy"  src="https://thecrow.uk/media/posts/1/damacoola_gambox_300_box.png" alt="" width="1920" height="1112" sizes="(max-width: 48em) 100vw, 768px" srcset="https://thecrow.uk/media/posts/1/responsive/damacoola_gambox_300_box-xs.png 300w ,https://thecrow.uk/media/posts/1/responsive/damacoola_gambox_300_box-sm.png 480w ,https://thecrow.uk/media/posts/1/responsive/damacoola_gambox_300_box-md.png 768w ,https://thecrow.uk/media/posts/1/responsive/damacoola_gambox_300_box-lg.png 1024w ,https://thecrow.uk/media/posts/1/responsive/damacoola_gambox_300_box-xl.png 1360w ,https://thecrow.uk/media/posts/1/responsive/damacoola_gambox_300_box-2xl.png 1600w"></figure>
+<p>While the console was briefly available on Amazon, virtually every trace of it has disappeared - either due to its obvious shortcomings leading to an unacceptable return rate, or because of the obvious and egregious copyright violation that go into marketing it.</p>
+<p>Either way, there are only a few references to the Gamebox 300 online (It's apparently made by Damacoola), although they do occasionally crop up on eBay. We paid £4.80 for ours in an in-person transaction and consider it money well spent. If we'd paid the supposed original price of £23.99, we would probably feel a little disappointed.</p>
+<h2>You don't need dedicated hardware to emulate old games</h2>
+<p>Of course, if you want to run old Game Boy games, there's no need to buy new handheld - or even repurpose kid's consoles. You can even <a href="https://thecrow.uk/emulate-classic-game-boy-action-in-the-linux-terminal/">play classic Game Boy titles in the Linux terminal</a>.</p>
+<p> </p>
             ]]>
         </content>
     </entry>
@@ -152,7 +210,7 @@
 <p>Of course, this only applies if the things you want are made out of plastic - and kind of small.</p>
 <p>That first point isn't quite true - metal 3D-printers exist at an eye-watering price point, and there are even some home-made, jury-rigged <a href="https://www.youtube.com/watch?v=E9tVj9qJ_ns" data-md-href="https://www.youtube.com/watch?v=E9tVj9qJ_ns" rel="noopener noreferrer nofollow">metal printers that have been fashioned out of TIG welders</a>, and managed to yield fairly respectable Benchies.</p>
 <p>And the second point isn't true either. There are some truly enormous 3D-printers out there. People have printed full-sized boat hulls, and The Crow could comfortably sit inside an <a href="https://us.elegoo.com/pages/elegoo-orangestorm-giga" data-md-href="https://us.elegoo.com/pages/elegoo-orangestorm-giga" rel="noopener noreferrer nofollow">Elegoo Orangestorm Giga</a>.</p>
-<p>When we first dipped our toes into the world of 3D printing a few years ago, it was to <a href="#non-existing-post-with-id-29">seize the means of production</a> and make own own cool stuff. We went with an AnyCubic Photon Mono resin printer, and it was great for making highly detailed models, fittings, fixtures, odds, and sods.</p>
+<p>When we first dipped our toes into the world of 3D printing a few years ago, it was to <a href="https://thecrow.uk/seizing-the-means-of-production-with-an-anycubic-photon-mono-resin-printer/">seize the means of production</a> and make own own cool stuff. We went with an AnyCubic Photon Mono resin printer, and it was great for making highly detailed models, fittings, fixtures, odds, and sods.</p>
 <p>But a resin printer comes with its own set of problems that emerge over time: it stinks, it's messy, it <em>is</em> limited to small objects. Slowly, print runs dropped off from daily to weekly, to zero. Years passed until we decided we wanted to make cool things again - but without the limitations of smelly resin.</p>
 <h2>The Elegoo Neptune 4 Max is not small</h2>
 <p>The first thing you'll hear about the Neptune 4 Max from most reviews is that it's huge, that it's a behemoth, that you'll never fit it through your front door, that it will break your dining table.</p>
@@ -572,79 +630,6 @@ source ~/.bashrc</code></pre>
 <p>If we're being honest, the project is more an exercise in showing what the terminal can do, rather than a platform for engaging in serious retro gaming. If your committed the idea of using the command line for games, try these games you can play in your Linux Terminal.</p>
 <p>Alternatively, if you want an emulation station you can take with you anywhere, you can easily <a href="https://thecrow.uk/cheap-portable-retro-gaming-with-a-hated-handheld/">convert a cheap Leapfrog Leapster into a fully featured pocket emulation platform</a></p>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Terminal Roulette is a classic casino game in your terminal</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://thecrow.uk/terminal-roulette-is-a-classic-casino-game-in-your-terminal/"/>
-        <id>https://thecrow.uk/terminal-roulette-is-a-classic-casino-game-in-your-terminal/</id>
-        <media:content url="https://thecrow.uk/media/posts/87/roulette_sign-2xl.webp" medium="image" />
-            <category term="Terminal"/>
-            <category term="Software"/>
-            <category term="Linux"/>
-            <category term="Gaming"/>
-
-        <updated>2024-05-11T12:23:00+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://thecrow.uk/media/posts/87/roulette_sign-2xl.webp" alt="A large outdoor roulette signpost" />
-                    Ah! The bright lights of Vegas, the complementary drinks, and attractive people of the appropriate gender gasping, as you boldly bet it all on black. What is there not to like about roulette? Well there are a few things, not least of which is that&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://thecrow.uk/media/posts/87/roulette_sign-2xl.webp" class="type:primaryImage" alt="A large outdoor roulette signpost" /></p>
-                <div class="post__entry u-inner">
-<p data-pm-slice="1 1 []">Ah! The bright lights of Vegas, the complementary drinks, and attractive people of the appropriate gender gasping, as you boldly bet it all on black. What is there not to like about roulette?</p>
-<p>Well there are a few things, not least of which is that if you stay on the table all night, you're likely to lose everything, take out a line of credit, and end up digging your own grave while being watched by a family of scorpions in the desert sun.</p>
-<p>Aside from that, roulette is pretty cool. It's not just a game of chance - you could get that with a random number generator - there's the fascination of watching the machinery in motion, and the numbers flashing up. There's the anticipation as you wait for it to settle.</p>
-<p>While we'd love to go to Vegas and risk everything on a silver ball, we're not going to - chained as we are to this keyboard, and reluctant to brave a trip to the airport.</p>
-<h2 id="h-why-play-roulette-in-the-linux-terminal">Why play roulette in the Linux terminal?</h2>
-<figure class="post__image"><figure class="post__image"><img loading="lazy"  src="https://thecrow.uk/media/posts/87/roulette_wheel-md.webp" alt="A roulette wheel with the ball settled on 25" width="768" height="384" sizes="(max-width: 48em) 100vw, 768px" srcset="https://thecrow.uk/media/posts/87/responsive/roulette_wheel-md-xs.webp 300w ,https://thecrow.uk/media/posts/87/responsive/roulette_wheel-md-sm.webp 480w ,https://thecrow.uk/media/posts/87/responsive/roulette_wheel-md-md.webp 768w ,https://thecrow.uk/media/posts/87/responsive/roulette_wheel-md-lg.webp 1024w ,https://thecrow.uk/media/posts/87/responsive/roulette_wheel-md-xl.webp 1360w ,https://thecrow.uk/media/posts/87/responsive/roulette_wheel-md-2xl.webp 1600w"></figure></figure>
-<p>If we believe what we're told by the gambling industry, betting on random events and sporting fixtures is something you should do for entertainment. Not something you should do if you can't afford to lose the money. A glance at the weeping and broken figures exiting our local dens of inquity tells us this advice is seldom heeded.</p>
-<p>We're <a href="https://buymeacoffee.com/linuximpact">pretty broke to start with</a>, and can guarantee that if we set up a betting account online, we'd be poorer still. Sure, gambling sites are flashy, and there are all kinds of offers, but we know who's going to come out better off at the end of the day - and it isn't us.</p>
-<p>Far better to play roulette locally, offline, with complementary beers from the kitchen fridge, and a stackful of imaginary money that you can regenerate at any time. Since we spend most of our waking hours in the terminal anyway, <a href="https://github.com/levkush/terminalroulette" rel="noopener noreferrer nofollow">terminalroulette</a>, by Canadian techie Lev Kushtym, seems like the better option.</p>
-<h2 id="h-how-to-install-terminalroulette">How to install terminalroulette</h2>
-<p>terminal roulette is a doddle to get onto your system, requiring only that you have <strong>git</strong> and <strong>Python</strong> already installed.</p>
-<p>if you have those prerequisites, clone the terminalroulette repository with:</p>
-<pre><code class="language-bash">git clone https://github.com/levkush/terminalroulette.git</code></pre>
-<p>Use the <strong>cd</strong> command to move into the new directory:</p>
-<pre><code class="language-bash">cd terminalroulette</code></pre>
-<p>...and launch the game with:</p>
-<pre><code class="language-bash">python3 roulette.py</code></pre>
-<h2 id="h-spin-the-roulette-wheel-in-your-terminal">Spin the roulette wheel in your terminal!</h2>
-<figure class="post__image"><figure class="post__image"><img loading="lazy"  src="https://thecrow.uk/media/posts/87/terminal-roulette-gameplay-md.webp" alt="terminal approximation of a roulette board and roulette wheel having lost $250" width="768" height="227" sizes="(max-width: 48em) 100vw, 768px" srcset="https://thecrow.uk/media/posts/87/responsive/terminal-roulette-gameplay-md-xs.webp 300w ,https://thecrow.uk/media/posts/87/responsive/terminal-roulette-gameplay-md-sm.webp 480w ,https://thecrow.uk/media/posts/87/responsive/terminal-roulette-gameplay-md-md.webp 768w ,https://thecrow.uk/media/posts/87/responsive/terminal-roulette-gameplay-md-lg.webp 1024w ,https://thecrow.uk/media/posts/87/responsive/terminal-roulette-gameplay-md-xl.webp 1360w ,https://thecrow.uk/media/posts/87/responsive/terminal-roulette-gameplay-md-2xl.webp 1600w"></figure></figure>
-<p>You start the game with a $1,000 balance and a representation of a roulette table at the top of your terminal. If you're familiar with the game, you'll recognise the green zeroes, and the long rows of numbered black and red squares.</p>
-<p>Below this is a representation of the wheel itself. It's not round but instead, shows a seven-number segment. When the game starts, the indicator is set on zero.</p>
-<p>As you might expect from a TUI game, the action is text-driven. With the action of betting following this pattern:</p>
-<pre><code class="language-bash">bet amount outcome</code></pre>
-<p>So if you wanted to place $250 of your imaginary cash on the number 27, you'd enter:</p>
-<pre><code class="language-bash">bet 250 27</code></pre>
-<p>Hit <strong>enter</strong> and you'll see "<strong>Successfully bet 250$ on 27!</strong>" From here, there's no way back, so type</p>
-<pre><code class="language-bash"> start</code></pre>
-<p>...and type <strong>enter</strong> once more to set the game in motion.</p>
-<p>Your ballance will dip by $250, and the wheel representation will flash into a semblence of motion as colours and numbers jockey for position.</p>
-<p>In our test run, the wheel landed on nuber 30, which is a red number, so we decided to recoup our losses with</p>
-<pre><code class="language-bash">bet 250 red</code></pre>
-<p>We won and were back at our original balance of $1000. Having narrowly avoided crippling losses, we decided to leave the <s>casino</s> terminal.</p>
-<p>The game is simple and in addition to <strong>bet </strong>and <strong>start</strong>, there are only a few commands to remember:</p>
-<pre><code class="language-bash">money</code></pre>
-<p>... will show your current balance.</p>
-<pre><code class="language-bash">clearbets</code></pre>
-<p>... will retract your current bets - provided you input it before you type <strong>start</strong>.</p>
-<p>to exit the roulette TUI, type:</p>
-<pre><code class="language-bash">exit</code></pre>
-<p>Additionally, you can bet on odds or evens - although you can't yet bet on columns or rows.</p>
-<h2 id="h-have-fun-pretending-to-gamble-in-your-terminal">Have fun pretending to gamble in your terminal</h2>
-<p>terminalroulette is fun for the few minutes it will take you to run through your stack of chips, and is a fun way to pass the time while you wait for packages to download, <a href="https://thecrow.uk/set-up-your-own-xmpp-server-on-a-raspberry-pi-in-under-five-minutes/">set up your own XMPP server</a>, or sync your photos with your <a href="https://thecrow.uk/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/">self-hosted Google Photos alternative</a>.</p>
-</div>
-<h4>Image credit:</h4>
-<p><a href="https://unsplash.com/@peterwendt?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Peter Wendt</a> on <a href="https://unsplash.com/photos/ruleta-sign-uj-I96UWtcQ?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
-<p><a href="https://unsplash.com/@hush52?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Hush Naidoo Jade Photography</a> on <a href="https://unsplash.com/photos/stainless-steel-round-table-on-brown-wooden-table-ax_jJpHdYjI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
             ]]>
         </content>
     </entry>
