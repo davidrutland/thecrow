@@ -230,7 +230,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/create-a-multi-textured-ambient-sonic-smorgasbord-on-linux-with-blanket/</loc>
-<lastmod>2025-07-08T14:27:55+01:00</lastmod>
+<lastmod>2025-07-15T12:12:50+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/57/manz-2xl.webp</image:loc>
 <image:title><![CDATA[Ray Mazarek playing the organ against a lightning background]]></image:title>
@@ -458,7 +458,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/freshrss-stay-safe-and-never-visit-another-website-again/</loc>
-<lastmod>2025-06-30T14:17:11+01:00</lastmod>
+<lastmod>2025-07-15T12:04:34+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/6/magazine-rack-2xl.webp</image:loc>
 <image:title><![CDATA[MAgazine rack showing a range of titles]]></image:title>
@@ -574,7 +574,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/great-classic-games-you-can-play-in-your-linux-terminal/</loc>
-<lastmod>2025-07-09T14:02:37+01:00</lastmod>
+<lastmod>2025-07-15T12:17:18+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/90/rgb-keyboard-2xl.webp</image:loc>
 <image:title><![CDATA[Close-up of an RGB keyboard]]></image:title>
@@ -606,33 +606,33 @@
 </url>
 <url>
 <loc>https://thecrow.uk/how-many-services-can-you-self-host-on-a-raspberry-pi/</loc>
-<lastmod>2025-07-09T09:23:50+01:00</lastmod>
+<lastmod>2025-07-15T11:32:07+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/67/htop-2xl.webp</image:loc>
 <image:title><![CDATA[Output of htop on a raspberry Pi 4b]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/67/lightbulb-md.webp</image:loc>
+<image:loc>https://thecrow.uk/media/posts/67/berat-bozkurt-y9OvVfIG2xM-unsplash-2.jpg</image:loc>
 <image:title><![CDATA[Incandescent lightbulb against a black background]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/67/Nextcloud-Logo-md.webp</image:loc>
-<image:title><![CDATA[White nextcloud logo on a blue background]]></image:title>
+<image:loc>https://thecrow.uk/media/posts/67/nextcloud_logo.jpg</image:loc>
+<image:title><![CDATA[Blue nextcloud logo on a white background]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/67/jellyfin-logo-md.webp</image:loc>
+<image:loc>https://thecrow.uk/media/posts/67/jellyfin-logo-md-2.webp</image:loc>
 <image:title><![CDATA[Jellyfin logo on a black background]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/67/audiobookshelf-md-2.webp</image:loc>
+<image:loc>https://thecrow.uk/media/posts/67/audiobookshelf-md-3.webp</image:loc>
 <image:title><![CDATA[Audiobookshelf default view showing books in progress and yet to be read]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/67/soroush-bahramian-703ruQVQIP0-unsplash.jpg</image:loc>
-<image:title><![CDATA[Two red and yellow mailboxes on a pavement]]></image:title>
+<image:loc>https://thecrow.uk/media/posts/67/rinck-content-studio-jF-8LUJMrdk-unsplash.jpg</image:loc>
+<image:title><![CDATA[Red mailbox on a pink background]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/67/snappymail-md.webp</image:loc>
+<image:loc>https://thecrow.uk/media/posts/67/snappymail-md-2.webp</image:loc>
 <image:title><![CDATA[An email inbox with a snazzy wood-effect background]]></image:title>
 </image:image>
 <image:image>
@@ -640,7 +640,11 @@
 <image:title><![CDATA[silhouette of a bearded man looking at his phone]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/67/mealie-md.webp</image:loc>
+<image:loc>https://thecrow.uk/media/posts/67/freshrss-md.webp</image:loc>
+<image:title><![CDATA[FreshRSS web interface there is a story open, and a picture of a drummer]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://thecrow.uk/media/posts/67/mealie-md-2.webp</image:loc>
 <image:title><![CDATA[Mealie web interface showing a recipe for tarte tatin]]></image:title>
 </image:image>
 <image:image>
@@ -648,20 +652,20 @@
 <image:title><![CDATA[post-it notes in day-glo colours]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/67/immich-md.webp</image:loc>
+<image:loc>https://thecrow.uk/media/posts/67/immich-web-interface-1024x514-md.webp</image:loc>
 <image:title><![CDATA[Immich web interface showing images and on this day for various years]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/67/akkoma-md.webp</image:loc>
+<image:loc>https://thecrow.uk/media/posts/67/akkoma-md-2.webp</image:loc>
 <image:title><![CDATA[Akkoma instance using the Pleroma front-end. Dark blue with the background set as the image of a beach]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/67/pigallery2_main_gallery-2-md.webp</image:loc>
+<image:loc>https://thecrow.uk/media/posts/67/pigallery2_main_gallery-2-md-2.webp</image:loc>
 <image:title><![CDATA[A selection of photographs and spicy memes]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/67/matomo-md.webp</image:loc>
-<image:title><![CDATA[A selection of photographs and spicy memes]]></image:title>
+<image:loc>https://thecrow.uk/media/posts/67/matomo-md-2.webp</image:loc>
+<image:title><![CDATA[matomo interface showing traffic, a world map,  and other stats]]></image:title>
 </image:image>
 </url>
 <url>
@@ -722,7 +726,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/how-to-run-wordpress-on-an-old-laptop-or-pc/</loc>
-<lastmod>2025-07-02T10:06:07+01:00</lastmod>
+<lastmod>2025-07-15T12:10:26+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/44/old_computer_can_be_wordpress_server-2xl.webp</image:loc>
 <image:title><![CDATA[A tower PC and monitor showing the Windows 98 boot screen]]></image:title>
@@ -738,13 +742,13 @@
 </url>
 <url>
 <loc>https://thecrow.uk/how-to-set-a-static-ip-address-for-your-raspberry-pi-server/</loc>
-<lastmod>2025-07-09T09:32:41+01:00</lastmod>
+<lastmod>2025-07-15T12:16:02+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/72/raspberry-pi-ip-addresses-2xl.webp</image:loc>
 <image:title><![CDATA[A tasty raspberry Pie overlaid with IP addresses]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/72/dialling-md.webp</image:loc>
+<image:loc>https://thecrow.uk/media/posts/72/dialling-md-2.webp</image:loc>
 <image:title><![CDATA[A hand dialling on an old-style rotary telephone]]></image:title>
 </image:image>
 <image:image>
@@ -754,7 +758,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/how-to-use-chatgpt-35-from-your-terminal-without-api-keys-using-tgpt/</loc>
-<lastmod>2025-07-02T10:25:42+01:00</lastmod>
+<lastmod>2025-07-15T12:26:25+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/46/woman-using-tgpt-on-a-laptop-2xl.webp</image:loc>
 <image:title><![CDATA[A woman with glasses using the terminal on a laptop]]></image:title>
@@ -770,7 +774,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/</loc>
-<lastmod>2025-07-08T10:48:36+01:00</lastmod>
+<lastmod>2025-07-15T12:28:55+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/48/a-selection-of-polaroid-photos-with-the-immich-logo-2xl.webp</image:loc>
 <image:title><![CDATA[A Polaroid camera with some photos overlaid with the Immich logo]]></image:title>
@@ -870,7 +874,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/languagetool-is-an-ai-powered-grammar-checker-you-can-self-host-on-your-own-hardware/</loc>
-<lastmod>2025-07-09T11:35:41+01:00</lastmod>
+<lastmod>2025-07-15T12:03:32+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/81/grammar-and-composition-2xl.webp</image:loc>
 <image:title><![CDATA[spine of a grammar & composition textbook]]></image:title>
@@ -1054,7 +1058,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/not-by-ai-a-badge-to-say-youre-mostly-human/</loc>
-<lastmod>2025-07-08T20:02:09+01:00</lastmod>
+<lastmod>2025-07-15T10:51:56+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/64/wbh-2xl.webp</image:loc>
 <image:title><![CDATA[badge on a white background saying "Written by human not by AI" on a white background]]></image:title>
@@ -1122,7 +1126,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/paranoid-and-perplexed-by-plex-privacy-pickle-just-enjoy-jellyfin/</loc>
-<lastmod>2025-07-08T18:01:47+01:00</lastmod>
+<lastmod>2025-07-15T11:53:41+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/63/pug-2xl.webp</image:loc>
 <image:title><![CDATA[a pug wrapped in a beige blanket]]></image:title>
@@ -1338,7 +1342,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/radio-active-is-an-instantly-usable-internet-radio-tui/</loc>
-<lastmod>2025-07-08T17:41:45+01:00</lastmod>
+<lastmod>2025-07-15T12:08:16+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/62/skully-2xl.webp</image:loc>
 <image:title><![CDATA[A human skull wearing headphones]]></image:title>
@@ -1358,7 +1362,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/relive-the-glory-days-of-crt-monitors-with-cool-retro-term/</loc>
-<lastmod>2025-07-08T11:12:44+01:00</lastmod>
+<lastmod>2025-07-15T12:09:23+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/52/bill-bailey-ibm-dos-cool-retro-term-2xl.webp</image:loc>
 <image:title><![CDATA[Glitchy image of a Jack Russel on an emulated DOS terminal]]></image:title>
@@ -1426,7 +1430,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/self-hosted-recipe-managers-to-make-cooking-a-joy/</loc>
-<lastmod>2025-07-01T17:14:50+01:00</lastmod>
+<lastmod>2025-07-15T12:00:57+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/42/pojkes-2xl.webp</image:loc>
 <image:title><![CDATA[A row of cooking pots on fire]]></image:title>
@@ -1462,7 +1466,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/set-up-your-own-xmpp-server-on-a-raspberry-pi-in-under-five-minutes/</loc>
-<lastmod>2025-07-08T11:29:18+01:00</lastmod>
+<lastmod>2025-07-15T12:25:45+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/54/zuck-2xl.webp</image:loc>
 <image:title><![CDATA[Mual art showing Mark Zuckerberg saying "the more of your data I gather, the more I understand what it means to be human."]]></image:title>
@@ -1654,7 +1658,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/trilium-notes-is-the-self-hosted-evernote-alternative-youre-looking-for/</loc>
-<lastmod>2025-07-09T10:32:36+01:00</lastmod>
+<lastmod>2025-07-15T11:59:12+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/76/nevernote-2xl.webp</image:loc>
 <image:title><![CDATA[Notepad saying nevernote and the crossed out image of an elephant]]></image:title>
@@ -1702,7 +1706,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/</loc>
-<lastmod>2025-07-02T09:57:44+01:00</lastmod>
+<lastmod>2025-07-15T12:05:17+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/43/use_old_pc_or_laptop_as_a_server-2xl.webp</image:loc>
 <image:title><![CDATA[Server rack illuminated by blue light]]></image:title>
@@ -1774,7 +1778,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/want-to-easily-create-a-good-looking-website-in-minutes-this-is-how/</loc>
-<lastmod>2025-07-08T13:42:04+01:00</lastmod>
+<lastmod>2025-07-15T12:21:15+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/56/crow_screen.png</image:loc>
 <image:title><![CDATA[Two women looking at each other over a laptop on a bed]]></image:title>
@@ -1826,7 +1830,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/windy-out-how-to-check-the-weather-moon-phase-and-more-from-your-linux-terminal/</loc>
-<lastmod>2025-07-09T12:03:05+01:00</lastmod>
+<lastmod>2025-07-15T12:27:44+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/84/wttr-crt-2xl.webp</image:loc>
 <image:title><![CDATA[Weather forecast displayed in cool retro term]]></image:title>
