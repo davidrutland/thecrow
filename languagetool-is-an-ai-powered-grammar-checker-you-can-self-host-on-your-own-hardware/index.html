@@ -43,19 +43,16 @@ services:
   const currentUrl = window.location.href.split('#')[0];
 
   // Grab all featured post links
-  let postLinks = [...document.querySelectorAll('.featured__container a')].map(a => a.href.split('#')[0]);
+  const featuredLinks = [...document.querySelectorAll('.featured__container a')]
+    .map(a => a.href.split('#')[0]);
 
-
-
-  // Ensure current post is included
-  let currentIndex = postLinks.findIndex(link => link === currentUrl);
-  if (currentIndex === -1) {
-    postLinks.unshift(currentUrl);
-    currentIndex = 0;
-  }
-
-  // make sure no dupes
+  // Build new scroll list: current post first, then all others excluding duplicates
+  const postLinks = [currentUrl, ...featuredLinks.filter(link => link !== currentUrl)];
+  
+    // double check sure no dupes
   postLinks = postLinks.filter((link, index) => postLinks.indexOf(link) === index);
+
+  let currentIndex = 0;
 
   if (postContainer && postLinks.length > 1) {
     const infScroll = new InfiniteScroll(postContainer, {
@@ -69,12 +66,10 @@ services:
       responseType: 'document',
     });
 
-    // next item
     infScroll.on('load', () => {
       currentIndex++;
     });
 
-    // grab new title
     infScroll.on('load', (response) => {
       const newTitle = response?.querySelector('title')?.innerText;
       if (newTitle) {
@@ -82,7 +77,6 @@ services:
       }
     });
 
-    // track url & title in Matomo
     infScroll.on('append', (body, path) => {
       if (path) {
         window.history.pushState({}, '', path);
@@ -95,7 +89,6 @@ services:
     });
   }
 
-  // button stuff
   window.addEventListener('popstate', () => {
     window.location.reload();
   });</script></body></html>
