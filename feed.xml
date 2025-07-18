@@ -3,12 +3,145 @@
     <title>The Crow</title>
     <link href="https://thecrow.uk/feed.xml" rel="self" />
     <link href="https://thecrow.uk" />
-    <updated>2025-07-18T10:04:02+01:00</updated>
+    <updated>2025-07-18T12:50:01+01:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://thecrow.uk</id>
 
+    <entry>
+        <title>Infinite featured-post scroll with Publii static site generator</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://thecrow.uk/infinite-featured-post-scroll-with-publii-static-site-generator/"/>
+        <id>https://thecrow.uk/infinite-featured-post-scroll-with-publii-static-site-generator/</id>
+        <media:content url="https://thecrow.uk/media/posts/100/akram-huseyn-umJ4PCS-rEI-unsplash.jpg" medium="image" />
+            <category term="tools"/>
+            <category term="hosting"/>
+            <category term="Tips"/>
+            <category term="Software"/>
+            <category term="Internet"/>
+            <category term="Guide"/>
+            <category term="Cool Things"/>
+
+        <updated>2025-07-18T12:19:22+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://thecrow.uk/media/posts/100/akram-huseyn-umJ4PCS-rEI-unsplash.jpg" alt="A student leafing through loose printed paper" />
+                    The majority of people who use the internet (or just people - everyone uses the internet) can be divided into two camp: people who plug a search query into Google, then either visit a page or digest the AI summary, and doomscrollers. Doomscrolling is the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://thecrow.uk/media/posts/100/akram-huseyn-umJ4PCS-rEI-unsplash.jpg" class="type:primaryImage" alt="A student leafing through loose printed paper" /></p>
+                <p data-pm-slice="1 1 []">The majority of people who use the internet (or just people - everyone uses the internet) can be divided into two camp: people who plug a search query into Google, then either visit a page or digest the AI summary, and doomscrollers.</p>
+<p>Doomscrolling is the modern curse of mankind, and can lead to teenagers wasting their lives flicking from video to video on TikTok, YouTube shorts, Instagram Reels, and SnapChat.</p>
+<p>This is especially galling during what promises to be a record breaking summer in the UK, and from the garden, The Crow can hear the occasional snicker through the teen's bedroom window, as yet another perfectly timed 60-second prank fails successfully.</p>
+<p>The other type of visitor isn't ideal either. While we delight in each and every visit to The Crow, it's slightly irritating that people just smash and grab. It would be nice if guests hung around a bit longer, Maybe they'd click through a sponsored link to <a href="https://namecheap.pxf.io/c/5003685/408749/5618">purchase a very reasonably priced domain name</a> or perhaps <a href="https://buymeacoffee.com/thecrow" target="_blank" rel="noopener noreferrer">buy us a coffee</a>. It's feasible that they could discover an article they weren't looking for, and share it with a friend.</p>
+<h2>An Infinite Scroll to scroll infinitely</h2>
+<p>We <a href="https://thecrow.uk/want-to-easily-create-a-good-looking-website-in-minutes-this-is-how/">created this website with Publii and it's hosted on GItHub Pages</a>. Publii themes already have the option of having all posts displayed on the site homepage - and who spends any time on the homepage anyway? The behaviour we wanted was as follows:</p>
+<ul>
+<li>
+<p>The reader scrolls to the bottom of a post page.</p>
+</li>
+<li>
+<p>A new article appears in-line and without fuss.</p>
+</li>
+<li>
+<p>The URL in the browser URL bar changes to reflect the new article.</p>
+</li>
+<li>
+<p>The page title changes to reflect the new article title.</p>
+</li>
+<li>
+<p>The view is logged by our self-hosted Matomo analytics server with the correct URL and article title</p>
+</li>
+</ul>
+<p>There are a couple of things to note about this spec list:</p>
+<ul>
+<li>
+<p>The articles should be of interest generally. Not everything published on The Crow is solid gold, and posts detailing how to install Golang are really helper pieces for different articles.</p>
+</li>
+<li>
+<p>We want Matomo to track visits because we want to see how well this is working. We're not stalking you across the interwebs and selling your data to the highest bidder. This is purely internal.</p>
+</li>
+<li>
+<p>Publii has a "Featured" feature which allows us to flag articles we want to appear in the side bar to be clicked. They're pieces we're particularly pleased with and provide a great source for our infinite scroll feature.</p>
+</li>
+</ul>
+<h2>Infinite scroll isn't a new feature on static sites</h2>
+<p>From what we were able to glean during a quick search of <a href="https://github.com/GetPublii/Publii/discussions/1421" data-md-href="https://github.com/GetPublii/Publii/discussions/1421" rel="noopener noreferrer nofollow">Publii's own GitHub Discussion forum</a>, Infinite Scroll is definitely a thing on Publii, and the <a href="https://marketplace.getpublii.com/themes/persona/" data-md-href="https://marketplace.getpublii.com/themes/persona/" rel="noopener noreferrer nofollow">Premium (paid) version of the Persona theme</a> already has it. But we're pretty invested in our customised TechNews theme right now, and besides, there's a ready-made solution out there in the form of the venerable and much-loved <a href="https://infinite-scroll.com/" data-md-href="https://infinite-scroll.com/" rel="noopener noreferrer nofollow">Infinite-scroll</a>.</p>
+<p>The script has plenty of options, but none of them quite did what we needed. New requirements appeared in our spec list which resulting in us hacking on the code until it did what we damned well wanted.</p>
+<p>Essentially, our modded script grabs the URLs from the featured column and creates a new array - starting with the current article - whether featured or not - and progresses through the featured posts in date order from the top.</p>
+<p>When the reader approaches the bottom of the post, the next post is loaded from the array. The page title and URL bar update, and Matomo grabs the new page view.</p>
+<h2>A modified Infinite Scroll script for Publii</h2>
+<p>After some heavy (and probably largely unnecessary) butchery this is what we came up with. We admit it's unlikely to be the most elegant solution.</p>
+<pre class="language-javascript"><code>&lt;script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  const postContainer = document.querySelector('.content');
+  const currentUrl = window.location.href.split('#')[0];
+
+  const featuredLinks = [...document.querySelectorAll('.featured__container a')]
+    .map(a =&gt; a.href.split('#')[0]);
+
+  const combinedLinks = [currentUrl, ...featuredLinks];
+  const postLinks = [...new Set(combinedLinks)];
+
+  let currentIndex = 0;
+
+  if (postContainer &amp;&amp; postLinks.length &gt; 1) {
+    const infScroll = new InfiniteScroll(postContainer, {
+      path() {
+        const nextIndex = currentIndex + 1;
+        return postLinks[nextIndex] || null;
+      },
+      append: '.content',
+      history: false,
+      scrollThreshold: 400,
+      responseType: 'document',
+    });
+
+    infScroll.on('load', () =&gt; {
+      currentIndex++;
+    });
+
+    infScroll.on('load', (response) =&gt; {
+      const newTitle = response?.querySelector('title')?.innerText;
+      if (newTitle) {
+        document.title = newTitle;
+      }
+    });
+
+    infScroll.on('append', (body, path) =&gt; {
+      if (path) {
+        window.history.pushState({}, '', path);
+        if (window._paq) {
+          window._paq.push(['setCustomUrl', path]);
+          window._paq.push(['setDocumentTitle', document.title]);
+          window._paq.push(['trackPageView']);
+        }
+      }
+    });
+  }
+
+  window.addEventListener('popstate', () =&gt; {
+    window.location.reload();
+  });
+&lt;/script&gt;
+</code></pre>
+<p>It works - or at least it seems too, although we're forced to admit that it took far longer than it should have.</p>
+<p>To improve the experience for readers, we decided to remove the author bio, post navigation, and related posts from the bottom of all posts. If you're that interested in this writer, you can click my name next to the date, and honestly, the "related posts" feature never worked that well for us anyway. One other thing to note is that lazy loading images borked things for us. YMMV.</p>
+<h2>Are we happy with how The Crow looks and feels now?</h2>
+<p>Well, we're not <em>unhappy </em>with it. Publii gets the job done with less fuss and tinkering than does Jekyll, and GitHub integration make it a neat publishing solution. On the other hand, the site is fairly hefty. We'll work on that in the future.</p>
+<p>There are a few features we integrated into our Jekyll / Raspberry Pi workflow which we'd like to bring back, such as our janky <a href="https://thecrow.uk/comments-on-a-static-site-its-simpler-than-you-think/">log-based commenting system</a>.</p>
+<p>For now though, scrolling through featured posts is pretty natty. And yes, we know it's not actually infinite.</p>
+<p> </p>
+<h4>Image credit:</h4>
+<p><a href="https://unsplash.com/@akramhuseyn?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Akram Huseyn</a> on <a href="https://unsplash.com/photos/woman-in-blue-dress-shirt-reading-book-umJ4PCS-rEI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Service Model by Adrian Tchaikovsky - a tar-black comedy of civilisation&#x27;s end</title>
         <author>
@@ -558,78 +691,6 @@
 </div>
 <h4>Image credit:</h4>
 <p><a href="https://unsplash.com/@patrickian4?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Patrick Fore</a> on <a href="https://unsplash.com/photos/black-corona-typewriter-on-brown-wood-planks-0gkw_9fy0eQ?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Emulate classic Game Boy action in The Linux Terminal  </title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://thecrow.uk/emulate-classic-game-boy-action-in-the-linux-terminal/"/>
-        <id>https://thecrow.uk/emulate-classic-game-boy-action-in-the-linux-terminal/</id>
-        <media:content url="https://thecrow.uk/media/posts/88/linux_terminal_game_boy-2xl.webp" medium="image" />
-            <category term="Terminal"/>
-            <category term="Software"/>
-            <category term="Retro"/>
-            <category term="Linux"/>
-            <category term="Gaming"/>
-
-        <updated>2024-05-18T12:34:00+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://thecrow.uk/media/posts/88/linux_terminal_game_boy-2xl.webp" alt="Teenage mutant ninja terminal gameboy action in the Linux terminal overlaid with front and back images of a first gen game boy" />
-                    Nintendo's Game Boy is a smidge older than Linux, with the pocket console making its Japanese debut in 1989. For those of us on the Eastern shores of the Atlantic, the first units appeared on the shelves in late 1990, making them the perfect stocking&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://thecrow.uk/media/posts/88/linux_terminal_game_boy-2xl.webp" class="type:primaryImage" alt="Teenage mutant ninja terminal gameboy action in the Linux terminal overlaid with front and back images of a first gen game boy" /></p>
-                <div class="post__entry u-inner">
-<p data-pm-slice="1 1 []">Nintendo's Game Boy is a smidge older than Linux, with the pocket console making its Japanese debut in 1989. For those of us on the Eastern shores of the Atlantic, the first units appeared on the shelves in late 1990, making them the perfect stocking filler for Christmas that year.</p>
-<p>The initial Linux release came a mere nine months later in September 1991.</p>
-<p>Both platforms have developed almost beyond recognition in the three decades that followed: The original Game Boy was followed by the Game Boy Color, then the Game Boy Advance, the Game Boy Advance SP, and finally the novelty-sized Game Boy Micro, with a form factor that harked back to Nintendo's earlier Game and Watch System.</p>
-<p>Linux, meanwhile, has progressed from a hacked-together kernel to the ever-expanding family of distros that power the internet, desktop computers, and even a line of games-consoles.</p>
-<p>But when it first appeared - mere months after the Game Boy made its debut on these shores, Linux offered users little more than a naked terminal.</p>
-<p>So it seems kind of appropriate to use that monochrome terminal to emulate the monochrome gameplay of the first Game Boy.</p>
-<h2 id="h-emulate-a-game-boy-with-php">Emulate a Game Boy with... PHP?</h2>
-<p>Emulating the original Game Boy isn't a computationally expensive task, and we were running Pokemon ROMs back when we were still convinced that Amiga was the future - proudly waving the bouncy ball banner as the system disappeared beneath the waves.</p>
-<p>Midway through the third decade of the 21st century, you can probably emulate a Game Boy on your electric toothbrush. It's the Doom of consoles - destined to be the benchmark by which the casual excesses of our hardware is judged.</p>
-<p>If you just want a quick couple of rounds of Tetris, it's easy enough to find a browser-based version online - or you can boot up one of the very many conventional Game Boy emulators available with a commercial or open-source licence.</p>
-<p>PHP is a scripting language that appeared on the scene in the 1990s, and back in the day, stood for Personal Home Page. You'd use it to build websites to display pictures of your cats and your kids. Almost 30 years on and PHP has evolved almost beyond recognition. Aside from dumping its association with homebrew web development, later versions added support for object-oriented programming, better database support Unicode, Just-in-time compilation, and a whole raft of optimisations.</p>
-<p>Today, PHP, despite the rather boring rebranding as "PHP: Hypertext Preprocessor", powers most sites on the internet including everything built using the WordPress platform - which itself is often used for... personal home pages.</p>
-<p>But it's PHP's usefulness as a relatively lightweight complete language, and the fact it can be executed on the command line, that makes it (kind of ) suitable to build a Game Boy emulator you can play in your terminal.</p>
-<h2 id="h-why-emulate-game-boy-games-in-your-terminal-anyway">Why emulate Game Boy games in your terminal anyway?</h2>
-<p>Browsers are big, hefty things that consume massive amounts of memory. Terminals are usually pretty lightweight.</p>
-<p>Maybe you want to play Mega Man V via SSH on a remote system like a Raspberry Pi while you're installing some self-hosted services, such as <a href="https://thecrow.uk/paranoid-and-perplexed-by-plex-privacy-pickle-just-enjoy-jellyfin/">Jellyfin</a>.</p>
-<p>Perhaps you just think playing Game Boy games in a terminal is cool. You're right. It is.</p>
-<h2 id="h-how-to-install-php-terminal-gameboy-emulator-on-linux">How to install php-terminal-gameboy-emulator on Linux</h2>
-<p><a href="https://github.com/gabrielrcouto/php-terminal-gameboy-emulator" rel="noopener noreferrer nofollow">php-terminal-gameboy-emulator</a> was developed by PHP enthusiast, Gabriel Rodrigues Couto, who has used PHP to start work on projects as diverse as PHP neural network, and even a PHP-based cryptocurrency.</p>
-<p>The Game Boy emulator repository hasn't been updated since 2016, and the Readme states that it's compatible with PHP 5.6, PHP 7, and HHVM (HipHop Virtual Machine).</p>
-<p>PHP 7 is pretty old, and HHVM hasn't supported PHP since 2017. But if you don't fancy installing ancient software on your spanky up-to-date Linux box, we're pleased to tell you that we've tried php-terminal-gameboy-emulator with all versions of PHP from 8.0 up. We ran into no difficulties, and you can proceed with confidence.</p>
-<p>For the easiest way to install the software, you'll need PHP and Composer installed on your system. On Debian-based PCs, you can install these with:</p>
-<pre><code class="language-bash">sudo apt install php-cli git composer</code></pre>
-<p>To get started, open a terminal in the usual way and clone the php-terminal-gameboy-emulator repository, and use the cd command to move into your new directory:</p>
-<pre><code class="language-bash">git clone https://github.com/gabrielrcouto/php-terminal-gameboy-emulator.git &amp;&amp; cd php-terminal-gameboy-emulator</code></pre>
-<p>Now use Composer to install the emulator:</p>
-<pre><code class="language-bash">composer install -o</code></pre>
-<p>The entire process should take no more than a minute.</p>
-<p>we found it useful to create an alias to make it easier to launch the emulator:</p>
-<pre><code class="language-bash">echo -e "\nalias php-gameboy='~/php-terminal-gameboy-emulator/bin/php-gameboy'" &gt;&gt; ~/.bashrc
-source ~/.bashrc</code></pre>
-<p>We found this to be the most reliable way to install the emulator. Other methods are detailed in the official repository.</p>
-<h2 id="h-you-can-play-game-boy-games-in-your-terminal-on-linux">You can play Game Boy games in your terminal on Linux!</h2>
-<p>Your new terminal-based gameboy emulator accepts the path of a Game Boy ROM as an argument, or will look for ROMs in your current directory. We wanted to play TMNT II - Back from the Sewers, so we entered:</p>
-<p>php-gameboy Teenage\ Mutant\ Ninja\ Turtles\ -\ Back\ From\ the\ Sewers\ (U)\ [!].gb</p>
-<p>Startup is instant, smooth, and gloriously monochrome.</p>
-<p>As a quick reminder, the original Game Boy had a limit number of buttons. There was a D-Pad for directional control, plus <strong>B</strong>, <strong>A</strong>, <strong>Start</strong>, and <strong>Select</strong>. In contrast, your standard PC keyboard has six rows of keys, and probably a numeric keypad. It's a little overkill for a tiny console, and you'll onnly be using a few of them. These are your standard AWSD for direction, plus comma and period (full stop) for <strong>A</strong> and <strong>B</strong>, with <strong>M</strong> and <strong>N</strong> standing in for <strong>Select</strong> and <strong>Start</strong>.</p>
-<h2>How do Game Boy Games play in the Terminal?</h2>
-<p>We don't have limitless time on our hands, so were only able to test a few games during our coffee break.</p>
-<p>Gameplay was smooth on all the games we tested, although there were some artefacts around the sprites when moving. Naturally, there was no sound.</p>
-<h2 id="h-and-if-you-need-some-more-nostalgia">And if you need some more nostalgia...</h2>
-<p>If we're being honest, the project is more an exercise in showing what the terminal can do, rather than a platform for engaging in serious retro gaming. If your committed the idea of using the command line for games, try these games you can play in your Linux Terminal.</p>
-<p>Alternatively, if you want an emulation station you can take with you anywhere, you can easily <a href="https://thecrow.uk/cheap-portable-retro-gaming-with-a-hated-handheld/">convert a cheap Leapfrog Leapster into a fully featured pocket emulation platform</a></p>
-</div>
             ]]>
         </content>
     </entry>
