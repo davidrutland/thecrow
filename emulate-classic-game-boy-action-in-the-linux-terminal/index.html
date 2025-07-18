@@ -16,14 +16,14 @@ source ~/.bashrc</code></pre><p>We found this to be the most reliable way to ins
         doubleClickTime: 500,
         mobileMenuExpandableSubmenus: true, 
         relatedContainerForOverlayMenuSelector: '.navbar',
-   };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script><script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>const postContainer = document.querySelector('.content');
+   };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script>Works!<script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>const postContainer = document.querySelector('.content');
   const currentUrl = window.location.href.split('#')[0];
 
   // Grab all featured post links
   const featuredLinks = [...document.querySelectorAll('.featured__container a')]
     .map(a => a.href.split('#')[0]);
 
-  // new scroll list: current post first, then all others excluding duplicates
+  // Build new scroll list: current post first, then all others excluding duplicates
   const postLinks = [currentUrl, ...featuredLinks.filter(link => link !== currentUrl)];
   
     // double check sure no dupes
@@ -47,7 +47,6 @@ source ~/.bashrc</code></pre><p>We found this to be the most reliable way to ins
       currentIndex++;
     });
 
-    // update title
     infScroll.on('load', (response) => {
       const newTitle = response?.querySelector('title')?.innerText;
       if (newTitle) {
@@ -55,7 +54,6 @@ source ~/.bashrc</code></pre><p>We found this to be the most reliable way to ins
       }
     });
 
-    // new url title for matomo 
     infScroll.on('append', (body, path) => {
       if (path) {
         window.history.pushState({}, '', path);
