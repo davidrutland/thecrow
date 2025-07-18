@@ -20,14 +20,14 @@ sudo apt install flatpak</code></pre><p>On Fedora and family:</p><pre><code>sudo
    };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script><script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>const postContainer = document.querySelector('.content');
   const currentUrl = window.location.href.split('#')[0];
 
-  // Grab all featured post links
+  // grab all featured post links
   const featuredLinks = [...document.querySelectorAll('.featured__container a')]
     .map(a => a.href.split('#')[0]);
 
-  // Build new scroll list: current post first, then all others excluding duplicates
-  const postLinks = [currentUrl, ...featuredLinks.filter(link => link !== currentUrl)];
+  // current post first, then others from featured
+  const postLinks = [currentUrl, ...featuredLinks];
   
-    // double check sure no dupes
+    // check no dupes
   postLinks = postLinks.filter((link, index) => postLinks.indexOf(link) === index);
 
   let currentIndex = 0;
@@ -47,14 +47,14 @@ sudo apt install flatpak</code></pre><p>On Fedora and family:</p><pre><code>sudo
     infScroll.on('load', () => {
       currentIndex++;
     });
-
+    // grab new title
     infScroll.on('load', (response) => {
       const newTitle = response?.querySelector('title')?.innerText;
       if (newTitle) {
         document.title = newTitle;
       }
     });
-
+    // make sure matomo can grab new title and URL
     infScroll.on('append', (body, path) => {
       if (path) {
         window.history.pushState({}, '', path);
@@ -66,7 +66,7 @@ sudo apt install flatpak</code></pre><p>On Fedora and family:</p><pre><code>sudo
       }
     });
   }
-
+  // back and forward
   window.addEventListener('popstate', () => {
     window.location.reload();
   });</script></body></html>
