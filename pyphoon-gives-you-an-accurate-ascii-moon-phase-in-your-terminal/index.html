@@ -18,15 +18,18 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
         mobileMenuExpandableSubmenus: true, 
         relatedContainerForOverlayMenuSelector: '.navbar',
    };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script><script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>const postContainer = document.querySelector('.content');
-  const currentUrl = window.location.href.split('#')[0];
 
-  // Get all post links from featured container
+  // Get current page's canonical URL
+  const canonicalUrl = document.querySelector('link[rel="canonical"]')?.href || window.location.href.split('#')[0];
+
+  // Get all featured post links
   const featuredLinks = [...document.querySelectorAll('.featured__container a')]
     .map(a => a.href.split('#')[0]);
 
-  // Prepend current, then combine and deduplicate while preserving order
-  const combinedLinks = [currentUrl, ...featuredLinks];
-  const postLinks = [...new Set(combinedLinks)];
+  // Build full post list, starting with current post
+  const combinedLinks = [canonicalUrl, ...featuredLinks];
+  const normalized = combinedLinks.map(url => url.replace(/\/+$/, '')); // strip trailing slashes
+  const postLinks = [...new Set(normalized)]; // remove duplicates
 
   let currentIndex = 0;
 
@@ -36,17 +39,16 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
         const nextIndex = currentIndex + 1;
         return postLinks[nextIndex] || null;
       },
-      append: '.content',
+      append: 'article.post', // Automatically insert only the post content
       history: false,
       scrollThreshold: 400,
       responseType: 'document',
     });
 
-    infScroll.on('load', () => {
-      currentIndex++;
-    });
-
     infScroll.on('load', (response) => {
+      currentIndex++;
+
+      // Update the document title from the loaded page
       const newTitle = response?.querySelector('title')?.innerText;
       if (newTitle) {
         document.title = newTitle;
@@ -65,6 +67,7 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
     });
   }
 
+  // Reload on browser back/forward navigation
   window.addEventListener('popstate', () => {
     window.location.reload();
   });</script></body></html>
