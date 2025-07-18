@@ -16,11 +16,23 @@
         mobileMenuExpandableSubmenus: true, 
         relatedContainerForOverlayMenuSelector: '.navbar',
    };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script><script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>const postContainer = document.querySelector('.content');
-  const postLinks = [...document.querySelectorAll('.featured__container a')].map(a => a.href);
-  const currentUrl = window.location.href;
-  let currentIndex = postLinks.findIndex(link => currentUrl.includes(link));
+  const currentUrl = window.location.href.split('#')[0]; // remove any anchors/hash
 
-  if (postContainer && currentIndex !== -1 && currentIndex < postLinks.length - 1) {
+  // Get links from fetured container
+  let postLinks = [...document.querySelectorAll('.featured__container a')]
+    .map(a => a.href.split('#')[0]); // clean URLs
+
+  // Add current URL to the top of the list
+  if (!postLinks.includes(currentUrl)) {
+    postLinks.unshift(currentUrl);
+  }
+
+  // no dupes
+  postLinks = [...new Set(postLinks)];
+
+  let currentIndex = 0;
+
+  if (postContainer && postLinks.length > 1) {
     const infScroll = new InfiniteScroll(postContainer, {
       path() {
         currentIndex++;
@@ -32,21 +44,20 @@
       responseType: 'document',
     });
 
+    // Update title and URL 
     infScroll.on('load', (response, path) => {
-      if (!response || !path) return;
-
-      // Extract and set <title> from the loaded document
-      const docTitle = response.querySelector('title')?.innerText;
-      if (docTitle) {
-        document.title = docTitle;
+      if (response) {
+        const newTitle = response.querySelector('title')?.innerText;
+        if (newTitle) {
+          document.title = newTitle;
+        }
       }
     });
 
+    // Matomo stuff
     infScroll.on('append', (body, path) => {
       if (path) {
         window.history.pushState({}, '', path);
-
-        
         if (window._paq) {
           window._paq.push(['setCustomUrl', path]);
           window._paq.push(['setDocumentTitle', document.title]);
@@ -56,7 +67,7 @@
     });
   }
 
- 
+  // Buttons!
   window.addEventListener('popstate', () => {
     window.location.reload();
   });</script></body></html>
