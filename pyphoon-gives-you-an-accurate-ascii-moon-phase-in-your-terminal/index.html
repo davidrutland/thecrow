@@ -29,17 +29,26 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
         return postLinks[currentIndex] || null;
       },
       append: '.content',
-      history: false, // the script handles history manually
+      history: false,
       scrollThreshold: 400,
       responseType: 'document',
     });
 
+    infScroll.on('load', (response, path) => {
+      if (!response || !path) return;
+
+      // Extract and set <title> from the loaded document
+      const docTitle = response.querySelector('title')?.innerText;
+      if (docTitle) {
+        document.title = docTitle;
+      }
+    });
+
     infScroll.on('append', (body, path) => {
       if (path) {
-        // Update browser URL without page reload
         window.history.pushState({}, '', path);
 
-        // Matomo analytics: track virtual page view
+        
         if (window._paq) {
           window._paq.push(['setCustomUrl', path]);
           window._paq.push(['setDocumentTitle', document.title]);
@@ -49,7 +58,7 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
     });
   }
 
-  // Basic back/forward button support: reload page on history navigation
+ 
   window.addEventListener('popstate', () => {
     window.location.reload();
   });</script></body></html>
