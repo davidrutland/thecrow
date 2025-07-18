@@ -51,27 +51,26 @@ SNIKKET_TWEAK_HTTPS_PORT=5443</code></pre><p>Start Snikket with:</p><pre><code>d
         mobileMenuExpandableSubmenus: true, 
         relatedContainerForOverlayMenuSelector: '.navbar',
    };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script><script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>const postContainer = document.querySelector('.content');
-  const currentUrl = window.location.href.split('#')[0]; // remove any anchors/hash
+  const currentUrl = window.location.href.split('#')[0];
 
-  // Get links from fetured container
-  let postLinks = [...document.querySelectorAll('.featured__container a')]
-    .map(a => a.href.split('#')[0]); // clean URLs
+  // Get all featured post links
+  let postLinks = [...document.querySelectorAll('.featured__container a')].map(a => a.href.split('#')[0]);
 
-  // Add current URL to the top of the list
-  if (!postLinks.includes(currentUrl)) {
+  // Deduplicate while preserving order
+  postLinks = postLinks.filter((link, index) => postLinks.indexOf(link) === index);
+
+  // Ensure current post is included
+  let currentIndex = postLinks.findIndex(link => link === currentUrl);
+  if (currentIndex === -1) {
     postLinks.unshift(currentUrl);
+    currentIndex = 0;
   }
-
-  // no dupes
-  postLinks = [...new Set(postLinks)];
-
-  let currentIndex = 0;
 
   if (postContainer && postLinks.length > 1) {
     const infScroll = new InfiniteScroll(postContainer, {
       path() {
-        currentIndex++;
-        return postLinks[currentIndex] || null;
+        const nextIndex = currentIndex + 1;
+        return postLinks[nextIndex] || null;
       },
       append: '.content',
       history: false,
@@ -79,17 +78,20 @@ SNIKKET_TWEAK_HTTPS_PORT=5443</code></pre><p>Start Snikket with:</p><pre><code>d
       responseType: 'document',
     });
 
-    // Update title and URL 
-    infScroll.on('load', (response, path) => {
-      if (response) {
-        const newTitle = response.querySelector('title')?.innerText;
-        if (newTitle) {
-          document.title = newTitle;
-        }
+    // Move index forward after loading
+    infScroll.on('load', () => {
+      currentIndex++;
+    });
+
+    // Update title from new content
+    infScroll.on('load', (response) => {
+      const newTitle = response?.querySelector('title')?.innerText;
+      if (newTitle) {
+        document.title = newTitle;
       }
     });
 
-    // Matomo stuff
+    // Update URL + track in Matomo
     infScroll.on('append', (body, path) => {
       if (path) {
         window.history.pushState({}, '', path);
@@ -102,7 +104,7 @@ SNIKKET_TWEAK_HTTPS_PORT=5443</code></pre><p>Start Snikket with:</p><pre><code>d
     });
   }
 
-  // Buttons!
+  // Handle back/forward button behavior
   window.addEventListener('popstate', () => {
     window.location.reload();
   });</script><script defer="defer" src="https://thecrow.uk/media/plugins/simpleLightboxGallery/venobox.min.js"></script><script type="text/javascript">document.addEventListener("DOMContentLoaded", () => {
