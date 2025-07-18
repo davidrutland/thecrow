@@ -20,11 +20,10 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
    };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script><script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>const postContainer = document.querySelector('.content');
   const currentUrl = window.location.href.split('#')[0];
 
-  // Get all featured post links
+  // Grab all featured post links
   let postLinks = [...document.querySelectorAll('.featured__container a')].map(a => a.href.split('#')[0]);
 
-  // Deduplicate while preserving order
-  postLinks = postLinks.filter((link, index) => postLinks.indexOf(link) === index);
+
 
   // Ensure current post is included
   let currentIndex = postLinks.findIndex(link => link === currentUrl);
@@ -32,6 +31,9 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
     postLinks.unshift(currentUrl);
     currentIndex = 0;
   }
+
+  // make sure no dupes
+  postLinks = postLinks.filter((link, index) => postLinks.indexOf(link) === index);
 
   if (postContainer && postLinks.length > 1) {
     const infScroll = new InfiniteScroll(postContainer, {
@@ -45,12 +47,12 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
       responseType: 'document',
     });
 
-    // Move index forward after loading
+    // next item
     infScroll.on('load', () => {
       currentIndex++;
     });
 
-    // Update title from new content
+    // grab new title
     infScroll.on('load', (response) => {
       const newTitle = response?.querySelector('title')?.innerText;
       if (newTitle) {
@@ -58,7 +60,7 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
       }
     });
 
-    // Update URL + track in Matomo
+    // track url & title in Matomo
     infScroll.on('append', (body, path) => {
       if (path) {
         window.history.pushState({}, '', path);
@@ -71,7 +73,7 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
     });
   }
 
-  // Handle back/forward button behavior
+  // button stuff
   window.addEventListener('popstate', () => {
     window.location.reload();
   });</script></body></html>
