@@ -40,20 +40,20 @@ services:
         mobileMenuExpandableSubmenus: true, 
         relatedContainerForOverlayMenuSelector: '.navbar',
    };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script><script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>const postContainer = document.querySelector('.content');
-
-  // Get current page's canonical URL
-  const canonicalUrl = document.querySelector('link[rel="canonical"]')?.href || window.location.href.split('#')[0];
+  const currentUrl = window.location.href.split('#')[0];
 
   // Get all featured post links
-  const featuredLinks = [...document.querySelectorAll('.featured__container a')]
-    .map(a => a.href.split('#')[0]);
+  let postLinks = [...document.querySelectorAll('.featured__container a')].map(a => a.href.split('#')[0]);
 
-  // Build full post list, starting with current post
-  const combinedLinks = [canonicalUrl, ...featuredLinks];
-  const normalized = combinedLinks.map(url => url.replace(/\/+$/, '')); // strip trailing slashes
-  const postLinks = [...new Set(normalized)]; // remove duplicates
+  // Deduplicate while preserving order
+  postLinks = postLinks.filter((link, index) => postLinks.indexOf(link) === index);
 
-  let currentIndex = 0;
+  // Ensure current post is included
+  let currentIndex = postLinks.findIndex(link => link === currentUrl);
+  if (currentIndex === -1) {
+    postLinks.unshift(currentUrl);
+    currentIndex = 0;
+  }
 
   if (postContainer && postLinks.length > 1) {
     const infScroll = new InfiniteScroll(postContainer, {
@@ -61,22 +61,26 @@ services:
         const nextIndex = currentIndex + 1;
         return postLinks[nextIndex] || null;
       },
-      append: 'article.post', // Automatically insert only the post content
+      append: '.content',
       history: false,
       scrollThreshold: 400,
       responseType: 'document',
     });
 
-    infScroll.on('load', (response) => {
+    // Move index forward after loading
+    infScroll.on('load', () => {
       currentIndex++;
+    });
 
-      // Update the document title from the loaded page
+    // Update title from new content
+    infScroll.on('load', (response) => {
       const newTitle = response?.querySelector('title')?.innerText;
       if (newTitle) {
         document.title = newTitle;
       }
     });
 
+    // Update URL + track in Matomo
     infScroll.on('append', (body, path) => {
       if (path) {
         window.history.pushState({}, '', path);
@@ -89,7 +93,7 @@ services:
     });
   }
 
-  // Reload on browser back/forward navigation
+  // Handle back/forward button behavior
   window.addEventListener('popstate', () => {
     window.location.reload();
   });</script></body></html>
