@@ -46,15 +46,10 @@
         mobileMenuExpandableSubmenus: true, 
         relatedContainerForOverlayMenuSelector: '.navbar',
    };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script><script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>const postContainer = document.querySelector('.content');
-
-  // Collect all featured post links
   const postLinks = [...document.querySelectorAll('.featured__container a')].map(a => a.href);
-
-  // Find current post index
   const currentUrl = window.location.href;
   let currentIndex = postLinks.findIndex(link => currentUrl.includes(link));
 
-  // Create Infinite Scroll instance if valid
   if (postContainer && currentIndex !== -1 && currentIndex < postLinks.length - 1) {
     const infScroll = new InfiniteScroll(postContainer, {
       path() {
@@ -62,15 +57,22 @@
         return postLinks[currentIndex] || null;
       },
       append: '.content',
-      history: true,
+      history: false, // keep false to handle history manually
       scrollThreshold: 400,
-      responseType: 'document', // ensures full DOM parsing
+      responseType: 'document',
     });
 
-    // Optional: stop if path returns null
-    infScroll.on('load', (response, path) => {
-      if (!path) {
-        infScroll.off('load');
+    // Manually update the URL when new content loads
+    infScroll.on('append', (body, path) => {
+      if (path) {
+        // Update the browser URL without reloading the page
+        window.history.pushState({}, '', path);
       }
     });
-  }</script></body></html>
+  }
+
+  // Optional: Handle back/forward navigation (basic support)
+  window.addEventListener('popstate', () => {
+    // On back/forward, simply reload page (or implement custom logic)
+    window.location.reload();
+  });</script></body></html>
