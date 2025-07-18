@@ -20,12 +20,13 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
    };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script><script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>const postContainer = document.querySelector('.content');
   const currentUrl = window.location.href.split('#')[0];
 
-  // Grab all featured post links
+  // Get all post links from featured container
   const featuredLinks = [...document.querySelectorAll('.featured__container a')]
     .map(a => a.href.split('#')[0]);
 
-  // Build new scroll list: current post first, then all others excluding duplicates
-  const postLinks = [currentUrl, ...featuredLinks.filter(link => link !== currentUrl)];
+  // Prepend current, then combine and deduplicate while preserving order
+  const combinedLinks = [currentUrl, ...featuredLinks];
+  const postLinks = [...new Set(combinedLinks)];
 
   let currentIndex = 0;
 
