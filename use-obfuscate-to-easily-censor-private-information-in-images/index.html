@@ -29,22 +29,27 @@ sudo apt install flatpak</code></pre><p>On Fedora and family:</p><pre><code>sudo
         return postLinks[currentIndex] || null;
       },
       append: '.content',
-      history: false, // keep false to handle history manually
+      history: false, // the script handles history manually
       scrollThreshold: 400,
       responseType: 'document',
     });
 
-    // Manually update the URL when new content loads
     infScroll.on('append', (body, path) => {
       if (path) {
-        // Update the browser URL without reloading the page
+        // Update browser URL without page reload
         window.history.pushState({}, '', path);
+
+        // Matomo analytics: track virtual page view
+        if (window._paq) {
+          window._paq.push(['setCustomUrl', path]);
+          window._paq.push(['setDocumentTitle', document.title]);
+          window._paq.push(['trackPageView']);
+        }
       }
     });
   }
 
-  // Optional: Handle back/forward navigation (basic support)
+  // Basic back/forward button support: reload page on history navigation
   window.addEventListener('popstate', () => {
-    // On back/forward, simply reload page (or implement custom logic)
     window.location.reload();
   });</script></body></html>
