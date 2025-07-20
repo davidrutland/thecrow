@@ -3,12 +3,92 @@
     <title>The Crow</title>
     <link href="https://thecrow.uk/feed.xml" rel="self" />
     <link href="https://thecrow.uk" />
-    <updated>2025-07-18T14:34:17+01:00</updated>
+    <updated>2025-07-20T22:24:50+01:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://thecrow.uk</id>
 
+    <entry>
+        <title>After effectively banning porn, Idaho state government shows visitors... porn.</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://thecrow.uk/after-effectively-banning-porn-idaho-state-government-shows-visitors-porn/"/>
+        <id>https://thecrow.uk/after-effectively-banning-porn-idaho-state-government-shows-visitors-porn/</id>
+        <media:content url="https://thecrow.uk/media/posts/101/idahoe.png" medium="image" />
+            <category term="Offbeat"/>
+            <category term="Microsoft"/>
+            <category term="Internet"/>
+
+        <updated>2025-07-20T21:51:57+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://thecrow.uk/media/posts/101/idahoe.png" alt="Map of Idaho overlaid with a couple in their underwear in a bed" />
+                    Most of what we know about Idaho comes from Neal Stephenson's Fall, where various inhabitants and characters are described as "extreme libertarians with a religious bent. They live in isolated compounds, and practice, "a fringy kind of Christianity." We don't know how true that is,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://thecrow.uk/media/posts/101/idahoe.png" class="type:primaryImage" alt="Map of Idaho overlaid with a couple in their underwear in a bed" /></p>
+                <p data-pm-slice="1 1 []">Most of what we know about Idaho comes from <a href="https://thecrow.uk/neal-stephensons-fall-how-deep-does-the-rabbit-hole-go/">Neal Stephenson's Fall</a>, where various inhabitants and characters are described as "extreme libertarians with a religious bent. They live in isolated compounds, and practice, "a fringy kind of Christianity." We don't know how true that is, as the state barely registers on The Crow's radar on a normal day.</p>
+<p>We do know that state lawmakers do not like porn at all. In a world where getting politicians to agree on anything is next to impossible, the Idaho House of Representatives unanimously passed <a href="https://web.archive.org/web/20240411000831/https://legislature.idaho.gov/sessioninfo/2024/legislation/H0498/" data-md-href="https://web.archive.org/web/20240411000831/https://legislature.idaho.gov/sessioninfo/2024/legislation/H0498/" rel="noopener noreferrer nofollow">House Bill 498</a> in February 2024 - requiring adult websites (read porn providers) to make robust checks to ensure their visitors are actually adults.</p>
+<p>The bill was passed by the state senate a month later, and was signed into law by the governor on March 20, 2024 - coming into effect on on July 1st, 2024.</p>
+<p>No, it doesn't <em>actually</em> ban naughty pictures and movies, but we'd be surprised if anyone had handed over their government-issued ID in return for access. </p>
+<h2>Idaho allows parents to sue porn providers</h2>
+<figure class="post__image"><img  src="https://thecrow.uk/media/posts/101/idaho_state_gov.png" alt="An Idaho legislative building at sunset" width="1600" height="800" sizes="(max-width: 48em) 100vw, 768px" srcset="https://thecrow.uk/media/posts/101/responsive/idaho_state_gov-xs.png 300w ,https://thecrow.uk/media/posts/101/responsive/idaho_state_gov-sm.png 480w ,https://thecrow.uk/media/posts/101/responsive/idaho_state_gov-md.png 768w ,https://thecrow.uk/media/posts/101/responsive/idaho_state_gov-lg.png 1024w ,https://thecrow.uk/media/posts/101/responsive/idaho_state_gov-xl.png 1360w ,https://thecrow.uk/media/posts/101/responsive/idaho_state_gov-2xl.png 1600w"></figure>
+<p>That the bill passed was not, in itself a surprise. Sure, people like porn, but they also like bumper payouts, and one of the core functions of legislation is to ensure that underage Idahoans(?) who view material "harmful to minors" (or their parents) are able to sue the entity that provides it. There's even a <a href="https://web.archive.org/web/20240314172849/https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2024/legislation/H0498.pdf" data-md-href="https://web.archive.org/web/20240314172849/https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2024/legislation/H0498.pdf" rel="noopener noreferrer nofollow">statutory minimum award</a> of a modest, yet potentially life-changing $10,000.</p>
+<p>In case you're wondering what this nebulous term actually means, the bill provides a description:</p>
+<p class="msg msg--highlight ">(a) Material that the average person applying contemporary community standards would find, taking the material as a whole and with respect to minors, is designed to appeal to, or is designed to pander to, the prurient interest. (b) Material that is devoted to or principally consists of descriptions of actual, simulated, or animated displays or depictions of any of the following, in a manner patently offensive with respect to minors: (i) Pubic hair, anus, vulva, genitals, or nipple of the female breast; (ii) Touching, caressing, or fondling of nipples, breasts, buttocks, anuses, or genitals; or (iii) Sexual intercourse, masturbation, sodomy, bestiality, oral copulation, flagellation, excretory functions, exhibitions, or any other sexual act; and (c) Material that, taken as a whole, lacks serious literary, artistic, political, or scientific value for minors.</p>
+<p>So far as we're aware, PornHub has yet to be sued, and literotica looks as healthy as ever. This could be because the ID checks are genuinely robust, or perhaps the young inhabitants of the state aren't inclined to look at pictures and images of people doing the dirty.</p>
+<p>Maybe it's just that no-one has got around to it yet.</p>
+<h2>Idaho is astonishingly bad at managing website migrations</h2>
+<p>Idaho is a great place to start a business, and according to <a href="https://web.archive.org/web/20160208112019/http://trade.idaho.gov/" data-md-href="https://web.archive.org/web/20160208112019/http://trade.idaho.gov/" rel="noopener noreferrer nofollow">a random 2016 grab of www.trade.idaho.gov</a>, offers "tax reimbursement incentives," "access to markets," and "a skilled workforce." Whether or not that skilled workforce is employed in the state's IT department is up for debate.</p>
+<p>Later in 2016, perhaps feeling that the word "trade" wasn't lofty or aspirational enough for the potato state, and in gross defiance of the state motto (Let it be perpetual), the Department of Trade was rebranded as the more dignified "Idaho Department of Commerce."</p>
+<p>Naturally, the trade subdomain was scrapped, with 301 redirects pushing visitors towards the new domain at <a href="https://commerce.idaho.gov/" data-md-href="https://commerce.idaho.gov/" rel="noopener noreferrer nofollow">https://commerce.idaho.gov</a>, which offers almost exactly the same incentives and services as the old department.</p>
+<p>So far, so good. But at some point prior to 2021, the server configuration was changed, leading to a <a href="https://web.archive.org/web/20210910111532/http://www.trade.idaho.gov/" data-md-href="https://web.archive.org/web/20210910111532/http://www.trade.idaho.gov/" rel="noopener noreferrer nofollow">502 error</a>, with "No route known for www.trade.idaho.gov." A year later, the 301 was back in place, and visitors to the subdomain homepage were redirected to the <a href="%20https://commerce.idaho.gov/idaho-business/international-trade/%20" data-md-href="%20https://commerce.idaho.gov/idaho-business/international-trade/%20" rel="noopener noreferrer nofollow">International Trade page</a> of the Commerce Department.</p>
+<p>Redirects can be tricky - especially if you're migrating an entire website. You want the redirects to be as clean as possible, and for people visiting an existing page to land on the equivalent page on the new site.</p>
+<p>The simplest way of doing this is to make sure that aside from the domain name, every part of the URL is identical. In this case, a single line in Apache will do the job.</p>
+<p>From what we've been able to see, the URL slugs and paths are identical, so why they didn't do this is utterly beyond us.</p>
+<p>In fact, we're not even sure <em>how</em> they did it. You might expect <strong>trade.idaho.gov/idaho-business/international-trade</strong> to land you on <strong>commerce.idaho.gov/idaho-business/international-trade/</strong>, but no, it'll take you to <strong>commerce.idaho.gov/idaho-business/international-trade/idaho-business/international-trade/</strong>, essentially duplicating a section of the URL and resulting in a commerce 404.</p>
+<p>Were the redirects added individually and by hand? Did they use a find and replace tool?</p>
+<p>It is possibly the worst website migration we have seen in, like, ever.</p>
+<p>With the Department of Trade now mothballed, and some redirects in place, the old subdomain was left to rot like an unloved and abandoned building.</p>
+<p>And as with any abandoned building, you don't have to wait long until squatters move in.</p>
+<h2>The state of Idaho doesn't demand age verification for its own "adult material."</h2>
+<figure class="post__image"><img  src="https://thecrow.uk/media/posts/101/idaho_porn.png" alt="A grainy shot of a movie player" width="1600" height="800" sizes="(max-width: 48em) 100vw, 768px" srcset="https://thecrow.uk/media/posts/101/responsive/idaho_porn-xs.png 300w ,https://thecrow.uk/media/posts/101/responsive/idaho_porn-sm.png 480w ,https://thecrow.uk/media/posts/101/responsive/idaho_porn-md.png 768w ,https://thecrow.uk/media/posts/101/responsive/idaho_porn-lg.png 1024w ,https://thecrow.uk/media/posts/101/responsive/idaho_porn-xl.png 1360w ,https://thecrow.uk/media/posts/101/responsive/idaho_porn-2xl.png 1600w"></figure>
+<p>Not all pages on the old Department of Trade site will redirect visitors to the shiny new Department of Commerce. Some will redirect visitors of whatever age straight to adult material.</p>
+<p>Take www.trade.idaho.gov/video/ahp/video-blue-film-blue-viral-hot-hd-sex-videos-05.htmlfor instance. This is clearly the URL of a porn video, and it's also a legitimate idaho.gov address.</p>
+<p>Visit the page without javascript enabled, and you'll see a WordPress site with the Twenty Twenty-Five theme. There are are broken images and blocks of text stolen from all over the internet.</p>
+<figure class="post__image"><img  src="https://thecrow.uk/media/posts/101/idaho_trade_website.png" alt="raw text and broken images on the Idaho trade website" width="972" height="402" sizes="(max-width: 48em) 100vw, 768px" srcset="https://thecrow.uk/media/posts/101/responsive/idaho_trade_website-xs.png 300w ,https://thecrow.uk/media/posts/101/responsive/idaho_trade_website-sm.png 480w ,https://thecrow.uk/media/posts/101/responsive/idaho_trade_website-md.png 768w ,https://thecrow.uk/media/posts/101/responsive/idaho_trade_website-lg.png 1024w ,https://thecrow.uk/media/posts/101/responsive/idaho_trade_website-xl.png 1360w ,https://thecrow.uk/media/posts/101/responsive/idaho_trade_website-2xl.png 1600w"></figure>
+<p>Re-enable javascript, and a properly working redirect will whisk you away to a membership porn site. We can't say how good the porn is as, in accordance with Idaho law, a credit card is needed to watch it.</p>
+<p>We found dozens of Idaho trade URLs - mostly leaning towards Indian tastes, and offering Desi Aunties, Bangla Blue films, Hindi, and more. Most of these will land you on a site called "okporns." Some lead elsewhere.</p>
+<h2>So... Idaho state government shows you porn. So what?</h2>
+<p>Imagine for a moment that someone is considering moving their business to Idaho. You'll also have to imagine that whoever hijacked the subdomain has ambitions beyond directing visitors to smut.</p>
+<p>With control of an actual factual, genuine, idaho.gov subdomain and some slight degree of competence, it would be the work of five or so minutes to build a website that would fool our hypothetical business owner into creating an account and handing over their details. It wouldn't take an afternoon to create one that could take payment for permits and fees. Hell, you could gather taxes through it and funnel them into your offshore accounts in the Cayman Islands.</p>
+<p>You could do a great deal of damage - and it wouldn't even be hard.</p>
+<h2>Why, exactly, is Idaho pushing porn to visitors?</h2>
+<p>Take a look at the DNS records for trade.idaho.gov, and you'll see three IP addresses. All of them are owned by Microsoft and are part of its Azure platform.</p>
+<p>We're taking a stab in the dark here, but in our inexpert opinion, at some point, Idaho stopped paying the bills for its trade subdomain, and in a shocking display of oversight, didn't update their DNS records.</p>
+<p>Microsoft recycles the IP and now another customer is using it to serve their own crappy content.</p>
+<p>Shocked, we were. Shocked.</p>
+<p>Do the pornsters even know that they are now in possession of some prime Idaho virtual real estate? Have they, perhaps, considered moving their enterprise to Idaho with its low taxes, high quality of life, and access to market? They have an "Entrepreneurial Culture" docha know?</p>
+<h2>Want to sue Idaho for serving porn to minors?</h2>
+<figure class="post__image"><img  src="https://thecrow.uk/media/posts/101/tingey-injury-law-firm-yCdPU73kGSc-unsplash.jpg" alt="A bronze statue of justice with scales and blindfold" width="1600" height="800" sizes="(max-width: 48em) 100vw, 768px" srcset="https://thecrow.uk/media/posts/101/responsive/tingey-injury-law-firm-yCdPU73kGSc-unsplash-xs.jpg 300w ,https://thecrow.uk/media/posts/101/responsive/tingey-injury-law-firm-yCdPU73kGSc-unsplash-sm.jpg 480w ,https://thecrow.uk/media/posts/101/responsive/tingey-injury-law-firm-yCdPU73kGSc-unsplash-md.jpg 768w ,https://thecrow.uk/media/posts/101/responsive/tingey-injury-law-firm-yCdPU73kGSc-unsplash-lg.jpg 1024w ,https://thecrow.uk/media/posts/101/responsive/tingey-injury-law-firm-yCdPU73kGSc-unsplash-xl.jpg 1360w ,https://thecrow.uk/media/posts/101/responsive/tingey-injury-law-firm-yCdPU73kGSc-unsplash-2xl.jpg 1600w"></figure>
+<p>With the promise of a minimum of $10,000 in compensation, we're sure that many Idaho residents are rubbing their hands at the prospect of finding porn (there are definitely nipples on female breasts, but they're kind of low quality) without robust age checks.</p>
+<p>Sadly, you can't. It's a long tradition for lawmakers to protect themselves, and at the bottom of the first page, you'll see that the state awards itself "Sovereign immunity."</p>
+<p>It's a long paragraph, but essentially means that the state cannot be sued in court unless very specific conditions are met (they are not).</p>
+<p>The bill also makes clear that the law only apples to commercial entities, and that they must "knowingly and intentionally publish material that is harmful to minors."</p>
+<p>Even we would have a hard time arguing that Idaho is <em>intentionally</em> pushing smut, but we're alarmed that there isn't a proviso for peddling filth through gross incompetence.</p>
+<h2>Idaho isn't alone</h2>
+<p>Idaho's unfortunate dangling DNS issue isn't the first we've seen. Way back at the tail end of 2021, The Crow discovered a similar <a href="https://thecrow.uk/a-govuk-site-dedicated-to-porn-absolutely-best-of-british-porn-not-quite/">adult site masquerading as an obscure yet once useful part of the UK's Department of Transport</a>.</p>
+<h4>Image credits:</h4>
+<p><a href="https://unsplash.com/@wevibe?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">We-Vibe Toys</a> on <a href="https://unsplash.com/photos/woman-in-black-lace-brassiere-lying-on-bed-nyMfwv7LBPw?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
+<p><a href="https://unsplash.com/@tingeyinjurylawfirm?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Tingey Injury Law Firm</a> on <a href="https://unsplash.com/photos/woman-in-dress-holding-sword-figurine-yCdPU73kGSc?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Infinite featured-post scroll with Publii static site generator</title>
         <author>
@@ -177,15 +257,15 @@
 <p>Our hero - or at least the valet robot we're following - has killed its master. The master isn't given a name, but the robot is called Charles. Charles doesn't know why he sliced his master's throat from ear to ear before leaving him on the bed and continuing with his task list. This forms Charles's central mystery. Not his motivation, though - or even an item on his task list.</p>
 <p>After being stripped of his name, Charles is sent to be diagnosed and decommissioned.</p>
 <p>From the police units conducting the investigation, through to the diagnostics facility, we are provided with instance after instance of the shortcomings of robots, and the shortsightedness of not only their human designers, but also the people and corporate entities that brought this situation about.</p>
-<p>The AIs and robots aren't really able to generate or create anything new, and they aren't generally able to alter either their task lists or programming, so are unable to adapt effective solutions to changed circumstances in a way that makes sense or is in any way effective.</p>
-<p>As we traverse the world - across what seems to be mainland Britain, but may not be -Tchaikovsky gives us case studies of why this or that great endeavour fails: librarians that digitally store the contents of work by binary digit in alphabetical order before destroying the originals; self-replicating armies that scavenge spare parts from other units, and continually fight - even though there does not ever seem to ever have been a war; a robotic judge - the most advanced and capable model we see - that has a sense of justice derived from the sensibilities of its mansion-dwelling ruling class creators.</p>
+<p>The AIs and robots aren't really able to generate or create anything new, and they aren't generally able to alter either their task lists or programming, so are unable to adapt or adopt sane solutions to changed circumstances in a way that makes sense or is in any way effective.</p>
+<p>As we traverse the world - across what seems to be mainland Britain, but may not be -Tchaikovsky gives us case studies of why this or that great endeavour fails: librarians that digitally store the contents of work by binary digit in alphabetical order before destroying the originals; self-replicating armies that scavenge spare parts from other units, and continually fight - even though there does not ever seem to ever have been a war; a robotic judge - the most advanced and capable model we see - that delivers the kind of justice derived from the sensibilities of its mansion-dwelling ruling class creators.</p>
 <p>These tableaux are what we're meant to be looking at - not UnCharles's journey towards an impossible self awareness.</p>
-<p>Humans still exist after the collapse, of course, and where they appear, they too serve as lessons. Beyond the spark of hope, curiosity, and heart-breaking roguish desperation provided by a teenage girl known as 'The Wonk,' who acts as UnCharles's initial saviour and companion for most of the book, we see examples of Mad Max style, desperately poor, hardscrabble settlements, inhabited by the descendants of stockbrokers and accountants. There's a supposedly historically accurate farm, where thousands of 'volunteers' work 8 to 6 in offices, performing pointless tasks bookended with a doubly pointless commute designed to make them as miserable as possible, and administered by a selfish autocrat who delights in inflicting the most mundane suffering. Does this seem like a dig at return-to-office mandates? It did to me. </p>
+<p>Humans still exist after the collapse, of course, and where they appear, they too serve as lessons. Beyond the spark of hope, curiosity, and heart-breaking roguish desperation provided by a teenage girl known as 'The Wonk' - who acts as UnCharles's initial saviour and companion for most of the book - we see examples of Mad Max style, desperately poor, hardscrabble settlements, inhabited by the descendants of stockbrokers and accountants. There's a supposedly historically accurate farm, where thousands of 'volunteers' work 8 to 6 in offices, performing pointless tasks bookended with a doubly pointless commute designed to make them as miserable as possible, and administered by a selfish autocrat who delights in inflicting the most mundane suffering. Does this seem like a dig at return-to-office mandates? It did to me. </p>
 <p>The world belongs to robots, but the characters are people. Our protagonist is no protagonist at all, and how can character development occur when the main character has none. It is UnCharles's part-time human companion that is on a quest for meaning.</p>
 <h2>A comedy, you say?</h2>
 <p>Despite the prophetic but not-quite-serious death-of-civilisation-for-mundane reasons vibe, Service Model is a funny book. The use of "yeet," as noted above, made me chuckle, and there's a fantastic courthouse scene that put me in mind of Ghostbusters II, but most of the comedy is of a slapstick nature, and speaks of unintended consequences of ill-considered actions.</p>
 <p>Sure, it isn't objectively funny to think that the setting of this book is the result of people being replaced by automation without a safety net, but it also kind of is, in a sort of facepalm "that sounds about right" way.</p>
-<p>The robots own efforts to continue with their tasks in the absence of human guidance is where the comedy really is. They conform to the letter of their programming, with solutions completely at odds with their original purpose. Again, it's facepalm humour, but it fits, elicits chuckles where appropriate, and as our protagonists leave each situation behind, we're already darkly looking forwards to the next.</p>
+<p>The robots own efforts to continue with their tasks in the absence of human guidance is where the comedy really is. They conform to the letter of their programming, with solutions completely at odds with their original purpose. Again, it's facepalm humour, but it fits, elicits laughs where appropriate, and as our protagonists leave each situation behind, we're already looking forwards to the next darkly humorous sketch..</p>
 <p>Adrian Tchaikovsky loves his novels to close out with a thread of hope and interspecies cooperation, and if you've read any of his work before, you'll have a pretty good idea as to how the novel will end.<br><br></p>
 <h2>Should you read Service Model by Adrian Tchaikovsky?</h2>
 <p>In a word, yes. The Crow is giving Service Model a <strong>5/5</strong> rating. You can <a href="https://amzn.to/44KLnHj" target="_blank" rel="noopener noreferrer">buy the book as either an e-book, physical media, or an audiobook from Amazon</a> (affiliate link).</p>
@@ -471,7 +551,7 @@
 <p>In the second week of ownership, however, warpage was so bad that the print head a large, partially printed model from the print bed. The object ended underneath the printer, locking the Y axis in place, and the printer continued to print. This was not ideal, and resulted in the purchase of a new extruder assembly.</p>
 <p> </p>
 <h2>Insanely good value</h2>
-<p>The Elegoo Neptune 4 Max has a list price of £472.99, but there are bargains and deals to be had. We went the eBay route, and bought from the official Elegoo eBay store, with a post Christmas voucher, meaning we paid a smidge under £350 for the unit and a tiny amount of filament. On the official website, the max is currently £377.99, s we didn't save a tonne of cash.</p>
+<p>The Elegoo Neptune 4 Max has a list price of £472.99, but there are bargains and deals to be had. We went the eBay route, and bought from the official Elegoo eBay store, with a post Christmas voucher, meaning we paid a smidge under £350 for the unit and a tiny amount of filament. On the official website, the max is currently £377.99, s we didn't save a tonne of cash, and there's usually a bargain to be had if you <a href="https://amzn.to/45a9Mr8" target="_blank" rel="noopener noreferrer">buy the Max on Amazon</a> (affiliate link).</p>
 <p>It's not a cheap purchase, but it's not bank-burstingly expensive either.</p>
 <p>You should buy one.</p>
             ]]>
@@ -641,58 +721,6 @@
 </div>
 <h4>Image credit:</h4>
 <p><a href="https://unsplash.com/@mateovrb?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Mateo</a> on <a href="https://unsplash.com/photos/black-keyboard-nCU4yq5xDEQ?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>MarkText is the beautiful cross-platform Markdown editor you&#x27;ve been looking for</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://thecrow.uk/marktext-is-the-beautiful-cross-platform-markdown-editor-youve-been-looking-for/"/>
-        <id>https://thecrow.uk/marktext-is-the-beautiful-cross-platform-markdown-editor-youve-been-looking-for/</id>
-        <media:content url="https://thecrow.uk/media/posts/89/typewriter-2-2xl.webp" medium="image" />
-            <category term="Software"/>
-            <category term="Linux"/>
-
-        <updated>2024-06-08T12:41:00+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://thecrow.uk/media/posts/89/typewriter-2-2xl.webp" alt="black typewriter on a wooden desk" />
-                    Markdown is a near-perfect way to create formatted documents - existing between the two extremes of a bare, naked text file, and a fully fledged word processor such as LibreOffice or Microsoft Word. It's a nice middle-ground to sit in. Often, a multi-gigabyte word processing&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://thecrow.uk/media/posts/89/typewriter-2-2xl.webp" class="type:primaryImage" alt="black typewriter on a wooden desk" /></p>
-                <div class="post__entry u-inner">
-<p data-pm-slice="1 1 []">Markdown is a near-perfect way to create formatted documents - existing between the two extremes of a bare, naked text file, and a fully fledged word processor such as LibreOffice or Microsoft Word.</p>
-<p>It's a nice middle-ground to sit in. Often, a multi-gigabyte word processing package is overkill for preparing the minutes of your local council meeting, but a text file lacks the ability to add images, titles, tables, or anything else beyond plain text.</p>
-<p>Markdown, on the other hand allows you to do some serious formatting, plan great layouts, embed images, and create a great looking document. And you can create Markdown in any basic text editor you choose.</p>
-<p>Of course, Markdown has its drawbacks - the main one being that you need a Markdown viewer to see the formatting in all its glory. Or you need to convert it to another format, such as HTML or PDF. It's a format for writing rather than reading, and what you see in your notes app isn't how it will be presented to the reader.</p>
-<h2 id="h-marktext-is-a-multi-mode-markdown-editor-and-viewer-for-distraction-free-writing">MarkText is a multi-mode Markdown editor and viewer for distraction-free writing</h2>
-<figure class="post__image"><figure class="post__image"><img  src="https://thecrow.uk/media/posts/89/marktext_themes-md.webp" alt="Marktext with themes picker open" width="768" height="432" sizes="(max-width: 48em) 100vw, 768px" srcset="https://thecrow.uk/media/posts/89/responsive/marktext_themes-md-xs.webp 300w ,https://thecrow.uk/media/posts/89/responsive/marktext_themes-md-sm.webp 480w ,https://thecrow.uk/media/posts/89/responsive/marktext_themes-md-md.webp 768w ,https://thecrow.uk/media/posts/89/responsive/marktext_themes-md-lg.webp 1024w ,https://thecrow.uk/media/posts/89/responsive/marktext_themes-md-xl.webp 1360w ,https://thecrow.uk/media/posts/89/responsive/marktext_themes-md-2xl.webp 1600w"></figure></figure>
-<p>Just because you can write Markdown in nano doesn't mean that you should. Often, you'll want to see how the text is going to appear to the reader, and honestly, writing in nano isn't a lot of fun.</p>
-<p>Dedicated Markdown editors offer you a preview of your Markdown as you write it, and of the dozens we've tried, MarkText is our favourite.</p>
-<p>In addition to real-time rendering, MarkText supports a range of Markdown flavours, including Pandoc, GitHub, and CommonMark, as well as KaTeX, front matter and emojis - if you're the kind of person who likes to include emojis in documentation.</p>
-<p>While MarkText doesn't have an especially lengthy features list, some of the things you'll definitely appreciate include the ability to paste images directly from the clipboard, and a variety of light and dark themes to prevent eye strain and keep you focussed on writing without distractions</p>
-<p>While you can write directly using MarkDown in MarkText's "Source Code" mode, the software offers two more modes that may better suit your style.</p>
-<p>Typewriter mode lets you furiously tap out your novel or article, with the text of the page moving so that your cursor stays in the same position.</p>
-<p>Focus mode, dims the page except the text you're currently working on</p>
-<p>You can also combine the modes.</p>
-<h2 id="h-install-marktext-for-distraction-free-writing">Install MarkText on Linux</h2>
-<p>MarkText is available for Windows, MacOS, and of course, Linux.</p>
-<p>To get started visit the <a href="https://github.com/marktext/marktext/releases/" rel="noopener noreferrer nofollow">MarkText GitHub releases</a> page. If you're lucky enough to run a Debian-based system, grab the <strong>marktext-amd64.deb</strong> file, then open a terminal and install it with:</p>
-<p>sudo dpkg -i marktext-amd64.deb</p>
-<p>Otherwise, download the appimage, then make it executable with:</p>
-<pre><code class="language-bash"> sudo chmod +x marktext.AppImage</code></pre>
-<p>You can launch the MarkText AppImage from your Downloads directory with:</p>
-<pre><code class="language-bash">./marktext.AppImage</code></pre>
-<h2 id="h-markdown-isnt-just-for-writing">Markdown isn't just for writing</h2>
-<p>You dont have to be writing documentation or preparing a presentation to take advantage of the simplicity and flexibility that Markdown offers. You can <a href="https://thecrow.uk/markdowndown-lets-you-easily-convert-web-pages-to-markdown/">download web pages as Markdown files</a> for archiving and viewing at your leisure.</p>
-</div>
-<h4>Image credit:</h4>
-<p><a href="https://unsplash.com/@patrickian4?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Patrick Fore</a> on <a href="https://unsplash.com/photos/black-corona-typewriter-on-brown-wood-planks-0gkw_9fy0eQ?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
             ]]>
         </content>
     </entry>
