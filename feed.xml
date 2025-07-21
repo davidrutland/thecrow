@@ -3,7 +3,7 @@
     <title>The Crow</title>
     <link href="https://thecrow.uk/feed.xml" rel="self" />
     <link href="https://thecrow.uk" />
-    <updated>2025-07-21T09:28:13+01:00</updated>
+    <updated>2025-07-21T11:21:10+01:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -48,7 +48,7 @@
 <p>Naturally, the trade subdomain was scrapped, with 301 redirects pushing visitors towards the new domain at <a href="https://commerce.idaho.gov/" data-md-href="https://commerce.idaho.gov/" rel="noopener noreferrer nofollow">https://commerce.idaho.gov</a>, which offers almost exactly the same incentives and services as the old department.</p>
 <p>So far, so good. But at some point prior to 2021, the server configuration was changed, leading to a <a href="https://web.archive.org/web/20210910111532/http://www.trade.idaho.gov/" data-md-href="https://web.archive.org/web/20210910111532/http://www.trade.idaho.gov/" rel="noopener noreferrer nofollow">502 error</a>, with "No route known for www.trade.idaho.gov." A year later, the 301 was back in place, and visitors to the subdomain homepage were redirected to the <a href="https://commerce.idaho.gov/idaho-business/international-trade/" rel="nofollow">International Trade page</a> of the Commerce Department.</p>
 <p>Redirects can be tricky - especially if you're migrating an entire website. You want the redirects to be as clean as possible, and for people visiting an existing page to land on the equivalent page on the new site.</p>
-<p>The simplest way of doing this is to make sure that aside from the domain name, every part of the URL is identical. In most cases, a single line in Apache will do the job.</p>
+<p>The simplest way of doing this is to make sure that aside from the domain name, every part of the URL is identical. In most cases, a single line in Apache will do the rest of the job for you.</p>
 <p>From what we've been able to see, the URL slugs and paths are identical, so why they didn't do this is utterly beyond us.</p>
 <p>In fact, we're not even sure <em>how</em> they did it. You might expect <strong>trade.idaho.gov/idaho-business/international-trade</strong> to land you on <strong>commerce.idaho.gov/idaho-business/international-trade/</strong>, but no, it'll take you to <strong>commerce.idaho.gov/idaho-business/international-trade/idaho-business/international-trade/</strong>, essentially duplicating a section of the URL and resulting in a commerce 404.</p>
 <p>Were the redirects added individually and by hand? Did they use a find and replace tool?</p>
