@@ -3,7 +3,7 @@
     <title>The Crow</title>
     <link href="https://thecrow.uk/feed.xml" rel="self" />
     <link href="https://thecrow.uk" />
-    <updated>2025-07-21T01:07:59+01:00</updated>
+    <updated>2025-07-21T01:11:20+01:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -46,7 +46,7 @@
 <p>Idaho is a great place to start a business, and according to <a href="https://web.archive.org/web/20160208112019/http://trade.idaho.gov/" data-md-href="https://web.archive.org/web/20160208112019/http://trade.idaho.gov/" rel="noopener noreferrer nofollow">a random 2016 grab of www.trade.idaho.gov</a>, offers "tax reimbursement incentives," "access to markets," and "a skilled workforce." Whether or not that skilled workforce is employed in the state's IT department is up for debate.</p>
 <p>Later in 2016, perhaps feeling that the word "trade" wasn't lofty or aspirational enough for the potato state, and in gross defiance of the state motto (Let it be perpetual), the Department of Trade was rebranded as the more dignified "Idaho Department of Commerce."</p>
 <p>Naturally, the trade subdomain was scrapped, with 301 redirects pushing visitors towards the new domain at <a href="https://commerce.idaho.gov/" data-md-href="https://commerce.idaho.gov/" rel="noopener noreferrer nofollow">https://commerce.idaho.gov</a>, which offers almost exactly the same incentives and services as the old department.</p>
-<p>So far, so good. But at some point prior to 2021, the server configuration was changed, leading to a <a href="https://web.archive.org/web/20210910111532/http://www.trade.idaho.gov/" data-md-href="https://web.archive.org/web/20210910111532/http://www.trade.idaho.gov/" rel="noopener noreferrer nofollow">502 error</a>, with "No route known for www.trade.idaho.gov." A year later, the 301 was back in place, and visitors to the subdomain homepage were redirected to the <a href="%20https://commerce.idaho.gov/idaho-business/international-trade/%20" data-md-href="%20https://commerce.idaho.gov/idaho-business/international-trade/%20" rel="noopener noreferrer nofollow">International Trade page</a> of the Commerce Department.</p>
+<p>So far, so good. But at some point prior to 2021, the server configuration was changed, leading to a <a href="https://web.archive.org/web/20210910111532/http://www.trade.idaho.gov/" data-md-href="https://web.archive.org/web/20210910111532/http://www.trade.idaho.gov/" rel="noopener noreferrer nofollow">502 error</a>, with "No route known for www.trade.idaho.gov." A year later, the 301 was back in place, and visitors to the subdomain homepage were redirected to the <a href="https://commerce.idaho.gov/idaho-business/international-trade/" rel="nofollow">International Trade page</a> of the Commerce Department.</p>
 <p>Redirects can be tricky - especially if you're migrating an entire website. You want the redirects to be as clean as possible, and for people visiting an existing page to land on the equivalent page on the new site.</p>
 <p>The simplest way of doing this is to make sure that aside from the domain name, every part of the URL is identical. In this case, a single line in Apache will do the job.</p>
 <p>From what we've been able to see, the URL slugs and paths are identical, so why they didn't do this is utterly beyond us.</p>
