@@ -17,7 +17,11 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
         doubleClickTime: 500,
         mobileMenuExpandableSubmenus: true, 
         relatedContainerForOverlayMenuSelector: '.navbar',
-   };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script><script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>const postContainer = document.querySelector('.content');
+   };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script><script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>document.addEventListener("DOMContentLoaded", function () {
+  // Only run on single post pages
+  if (!document.body.classList.contains('post-page')) return;
+    
+  const postContainer = document.querySelector('.content');
   const currentUrl = window.location.href.split('#')[0];
 
   const featuredLinks = [...document.querySelectorAll('.featured__container a')]
