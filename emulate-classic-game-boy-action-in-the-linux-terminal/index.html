@@ -20,7 +20,7 @@ source ~/.bashrc</code></pre><p>We found this to be the most reliable way to ins
     const isPostPage = document.body.classList.contains('post-template');
     const isHomePage = document.body.classList.contains('home-template');
 
-    // Infinite scroll for post pages
+    // 🔁 POST PAGE Infinite Scroll
     if (isPostPage) {
       const postContainer = document.querySelector('.content');
       const currentUrl = window.location.href.split('#')[0];
@@ -51,9 +51,7 @@ source ~/.bashrc</code></pre><p>We found this to be the most reliable way to ins
 
         infScroll.on('load', (response) => {
           const newTitle = response?.querySelector('title')?.innerText;
-          if (newTitle) {
-            document.title = newTitle;
-          }
+          if (newTitle) document.title = newTitle;
         });
 
         infScroll.on('append', (body, path) => {
@@ -73,14 +71,13 @@ source ~/.bashrc</code></pre><p>We found this to be the most reliable way to ins
       }
     }
 
-    // Infinite scroll for homepage
+    // HOMEPAGE Infinite Scroll
     if (isHomePage) {
-      const mainContainer = document.querySelector('.main');
-
-      if (mainContainer) {
-        new InfiniteScroll(mainContainer, {
+      const homeContainer = document.querySelector('.main.l-grid.l-grid--2col-1-4');
+      if (homeContainer) {
+        new InfiniteScroll(homeContainer, {
           path: '.pagination__item--prev',
-          append: '.post',
+          append: '.main.l-grid.l-grid--2col-1-4 > *',
           history: false,
           scrollThreshold: 400,
         });

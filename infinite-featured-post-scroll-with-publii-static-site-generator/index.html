@@ -71,7 +71,7 @@
     const isPostPage = document.body.classList.contains('post-template');
     const isHomePage = document.body.classList.contains('home-template');
 
-    // Infinite scroll for post pages
+    // 🔁 POST PAGE Infinite Scroll
     if (isPostPage) {
       const postContainer = document.querySelector('.content');
       const currentUrl = window.location.href.split('#')[0];
@@ -102,9 +102,7 @@
 
         infScroll.on('load', (response) => {
           const newTitle = response?.querySelector('title')?.innerText;
-          if (newTitle) {
-            document.title = newTitle;
-          }
+          if (newTitle) document.title = newTitle;
         });
 
         infScroll.on('append', (body, path) => {
@@ -124,14 +122,13 @@
       }
     }
 
-    // Infinite scroll for homepage
+    // HOMEPAGE Infinite Scroll
     if (isHomePage) {
-      const mainContainer = document.querySelector('.main');
-
-      if (mainContainer) {
-        new InfiniteScroll(mainContainer, {
+      const homeContainer = document.querySelector('.main.l-grid.l-grid--2col-1-4');
+      if (homeContainer) {
+        new InfiniteScroll(homeContainer, {
           path: '.pagination__item--prev',
-          append: '.post',
+          append: '.main.l-grid.l-grid--2col-1-4 > *',
           history: false,
           scrollThreshold: 400,
         });
