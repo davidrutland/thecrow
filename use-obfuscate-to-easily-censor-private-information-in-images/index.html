@@ -21,6 +21,7 @@ sudo apt install flatpak</code></pre><p>On Fedora and family:</p><pre><code>sudo
     const isPostPage = document.body.classList.contains('post-template');
     const isHomePage = document.body.classList.contains('home-template');
 
+    // Infinite scroll for post pages
     if (isPostPage) {
       const postContainer = document.querySelector('.content');
       const currentUrl = window.location.href.split('#')[0];
@@ -73,37 +74,16 @@ sudo apt install flatpak</code></pre><p>On Fedora and family:</p><pre><code>sudo
       }
     }
 
+    // Infinite scroll for homepage
     if (isHomePage) {
       const mainContainer = document.querySelector('.main');
+
       if (mainContainer) {
-        const infScroll = new InfiniteScroll(mainContainer, {
+        new InfiniteScroll(mainContainer, {
           path: '.pagination__item--prev',
           append: '.post',
           history: false,
           scrollThreshold: 400,
-          responseType: 'document',
-        });
-
-        infScroll.on('append', (body, path) => {
-          if (path) {
-            window.history.pushState({}, '', path);
-            if (window._paq) {
-              window._paq.push(['setCustomUrl', path]);
-              window._paq.push(['setDocumentTitle', document.title]);
-              window._paq.push(['trackPageView']);
-            }
-          }
-        });
-
-        infScroll.on('load', (response) => {
-          const newTitle = response?.querySelector('title')?.innerText;
-          if (newTitle) {
-            document.title = newTitle;
-          }
-        });
-
-        window.addEventListener('popstate', () => {
-          window.location.reload();
         });
       }
     }
