@@ -18,10 +18,9 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
         mobileMenuExpandableSubmenus: true, 
         relatedContainerForOverlayMenuSelector: '.navbar',
    };</script><script defer="defer" src="https://thecrow.uk/assets/js/scripts.min.js?v=18a65c58aef57c0287e0f0609f3389a9"></script><script src="https://unpkg.com/infinite-scroll@5/dist/infinite-scroll.pkgd.min.js"></script><script>document.addEventListener("DOMContentLoaded", function () {
-  const body = document.body;
+    // Only apply on single post pages
+    if (!document.body.classList.contains('post-template')) return;
 
-  // === SINGLE POST PAGE INFINITE SCROLL ===
-  if (body.classList.contains('post-template')) {
     const postContainer = document.querySelector('.content');
     const currentUrl = window.location.href.split('#')[0];
 
@@ -66,24 +65,9 @@ python setup.py install</code></pre><p>That's it. You can start Pyphoon by enter
           }
         }
       });
-
-      window.addEventListener('popstate', () => {
-        window.location.reload();
-      });
     }
-  }
 
-  // === HOMEPAGE INFINITE SCROLL ===
-  if (body.classList.contains('index-template')) {
-    const homeContainer = document.querySelector('.post-list'); // Adjust if needed
-    if (!homeContainer) return;
-
-    new InfiniteScroll(homeContainer, {
-      path: '.pagination__next',
-      append: '.post',
-      history: true,
-      scrollThreshold: 400,
-      status: '.page-load-status',
+    window.addEventListener('popstate', () => {
+      window.location.reload();
     });
-  }
-});</script></body></html>
+  });</script></body></html>
