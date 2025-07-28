@@ -938,7 +938,7 @@
 </url>
 <url>
 <loc>https://thecrow.uk/instantly-generate-configs-from-running-containers-with-docker-autocompose/</loc>
-<lastmod>2025-07-17T22:32:37+01:00</lastmod>
+<lastmod>2025-07-28T11:41:15+01:00</lastmod>
 <image:image>
 <image:loc>https://thecrow.uk/media/posts/66/xxww-bmjoiLhPcnQ-unsplash.jpg</image:loc>
 <image:title><![CDATA[A row of plastic clowns at an arcade]]></image:title>
@@ -952,8 +952,8 @@
 <image:title><![CDATA[Trilium notes interface]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thecrow.uk/media/posts/66/create-docker-compose-for-trilium-md-2.webp</image:loc>
-<image:title><![CDATA[Output of the commands docker ps and autocompose.py 698bc65f6b12]]></image:title>
+<image:loc>https://thecrow.uk/media/posts/66/create-docker-compose-for-trilium.png</image:loc>
+<image:title><![CDATA[Output of the commands docker ps and autocompose.py]]></image:title>
 </image:image>
 </url>
 <url>
