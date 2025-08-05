@@ -147,7 +147,7 @@
     {
         "path": "/authors/david-rutland/index.html",
         "type": "file",
-        "md5": "5fe1607ce1a707ab80149beb6985047c"
+        "md5": "78e7f600e3194aa5cb59092eec7d7fa6"
     },
     {
         "path": "authors/david-rutland/page",
@@ -437,12 +437,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "8238674e6d939e98ab1cb5faa0a63587"
+        "md5": "5761267fe001e00cb155e512846c3d41"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "52a1a7265036387daac87e0173ded637"
+        "md5": "6a7a4f22671a999c568ee4bca68bd4a7"
     },
     {
         "path": "forget-net-nanny-pihole-will-keep-your-kids-late-night-activity-in-check",
@@ -667,7 +667,7 @@
     {
         "path": "index.html",
         "type": "file",
-        "md5": "99edff2512a5ff109a1e6838bcb20a0f"
+        "md5": "d7102cd04a172491b460c0b1a29319fc"
     },
     {
         "path": "infinite-featured-post-scroll-with-publii-static-site-generator",
@@ -16247,7 +16247,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "1dce11724128fd5c170feea86d6312fe"
+        "md5": "50a962de01482fbc56567ae4b789f219"
     },
     {
         "path": "sitemap.xsl",
@@ -16357,7 +16357,7 @@
     {
         "path": "/tags/emulation/index.html",
         "type": "file",
-        "md5": "9a4fb2534e29cbcaa19fac61cdc3850e"
+        "md5": "b06b587637f2c8dd1bd593fe97e25c2c"
     },
     {
         "path": "tags/entertainment",
@@ -16397,7 +16397,7 @@
     {
         "path": "/tags/gaming/index.html",
         "type": "file",
-        "md5": "b4af5072e8793171c363531194856028"
+        "md5": "ac6d8f3f0a8583cb15f4e0b99364495c"
     },
     {
         "path": "tags/github",
@@ -16667,7 +16667,7 @@
     {
         "path": "/tags/review/index.html",
         "type": "file",
-        "md5": "633df8226592d41d9b392dbc80f8f272"
+        "md5": "fd4a8bd9d1b751ac8a3e392b3b46c27d"
     },
     {
         "path": "tags/rss",
@@ -16842,7 +16842,7 @@
     {
         "path": "/tags/steam/index.html",
         "type": "file",
-        "md5": "5b618d1f49365f0449457415d8f341d2"
+        "md5": "06b9b9be2814d8d34e7679e3f441f32a"
     },
     {
         "path": "tags/stuff",
@@ -16917,7 +16917,7 @@
     {
         "path": "/tags/wine/index.html",
         "type": "file",
-        "md5": "c174eb88f6f5f5531b8dffa2389f1c82"
+        "md5": "f9598b6ff84bc65562cb914a3302195f"
     },
     {
         "path": "terminal-roulette-is-a-classic-casino-game-in-your-terminal",
@@ -16990,14 +16990,14 @@
         "md5": "2d81e1f804e964ef189ca360227c80eb"
     },
     {
-        "path": "the-precinct-a-cop-game-where-you-do-the-do-the-right-thing",
+        "path": "the-precinct-game-review-pc-linux",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "/the-precinct-a-cop-game-where-you-do-the-do-the-right-thing/index.html",
+        "path": "/the-precinct-game-review-pc-linux/index.html",
         "type": "file",
-        "md5": "582bd5dce20debc687d30a47e81cdb0f"
+        "md5": "37bd5f082d40a237e63689825c3fb71e"
     },
     {
         "path": "the-teeniest-tiniest-laptop-in-the-west",
