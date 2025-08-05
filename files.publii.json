@@ -437,12 +437,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "9561a2b1ea13226a7ea9845f837d1585"
+        "md5": "8238674e6d939e98ab1cb5faa0a63587"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "29ca0759e0474378ce96b765cf2fd699"
+        "md5": "52a1a7265036387daac87e0173ded637"
     },
     {
         "path": "forget-net-nanny-pihole-will-keep-your-kids-late-night-activity-in-check",
@@ -16247,7 +16247,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "bc2346e6b41e90e5eea38f6685b1bcc5"
+        "md5": "1dce11724128fd5c170feea86d6312fe"
     },
     {
         "path": "sitemap.xsl",
@@ -16997,7 +16997,7 @@
     {
         "path": "/the-precinct-a-cop-game-where-you-do-the-do-the-right-thing/index.html",
         "type": "file",
-        "md5": "b345035ba3d86a94fdf5e7fc2d2ed3cb"
+        "md5": "582bd5dce20debc687d30a47e81cdb0f"
     },
     {
         "path": "the-teeniest-tiniest-laptop-in-the-west",
