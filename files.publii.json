@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "862ed4d7f526ee1def1ef5b00551dc69"
+        "md5": "ca70e39f6f375a25101f6ddba752602b"
     },
     {
         "path": "a-friendly-reminder-stay-vigilant-against-scam-emails-from-criminals-and-neer-do-wells",
@@ -12,7 +12,7 @@
     {
         "path": "/a-friendly-reminder-stay-vigilant-against-scam-emails-from-criminals-and-neer-do-wells/index.html",
         "type": "file",
-        "md5": "b8a1cefd6f8111490f36d72486ff031c"
+        "md5": "29611e85dc9f452acb2e5921c2ecd993"
     },
     {
         "path": "a-govuk-site-dedicated-to-porn-absolutely-best-of-british-porn-not-quite",
@@ -22,7 +22,7 @@
     {
         "path": "/a-govuk-site-dedicated-to-porn-absolutely-best-of-british-porn-not-quite/index.html",
         "type": "file",
-        "md5": "6ee8d5505252646d3ebb4c0af49ea7f8"
+        "md5": "9381f34ceec64cc6c5e15b0c7bd7b670"
     },
     {
         "path": "a-techcrunch-rss-feed-was-hijacked-in-2021-nobody-noticed",
@@ -32,7 +32,7 @@
     {
         "path": "/a-techcrunch-rss-feed-was-hijacked-in-2021-nobody-noticed/index.html",
         "type": "file",
-        "md5": "bb4313f68d3eabcf4033e20d4c148178"
+        "md5": "a362267b6af5471fb504222c20b57451"
     },
     {
         "path": "after-effectively-banning-porn-idaho-state-government-shows-visitors-porn",
@@ -42,7 +42,7 @@
     {
         "path": "/after-effectively-banning-porn-idaho-state-government-shows-visitors-porn/index.html",
         "type": "file",
-        "md5": "7fe4b5ae942074fa8670afcceb45ae49"
+        "md5": "99731d356abb6ca1c88084ba17328a86"
     },
     {
         "path": "ancestrycom-helping-you-trace-your-roots-and-share-your-exact-address",
@@ -52,7 +52,7 @@
     {
         "path": "/ancestrycom-helping-you-trace-your-roots-and-share-your-exact-address/index.html",
         "type": "file",
-        "md5": "ddde69613e3c3e17f35c8533537b1feb"
+        "md5": "b32132d8ab764ea348905b31c1f2d237"
     },
     {
         "path": "antisocial-media-the-crow-dives-headlong-into-the-fediverse",
@@ -62,7 +62,17 @@
     {
         "path": "/antisocial-media-the-crow-dives-headlong-into-the-fediverse/index.html",
         "type": "file",
-        "md5": "4295063d17f815b1a5fbe8667276148e"
+        "md5": "053db103a033000d1e992b73a1081a0d"
+    },
+    {
+        "path": "articles-and-essays",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/articles-and-essays/index.html",
+        "type": "file",
+        "md5": "db1d740d30343deb31d01c254dfcfca4"
     },
     {
         "path": "assets",
@@ -87,7 +97,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "93aa404489111637d21ff3bea9ddad71"
+        "md5": "3ad5e8943a9ed25d4b1a651497b3b179"
     },
     {
         "path": "assets/dynamic",
@@ -147,7 +157,7 @@
     {
         "path": "/authors/david-rutland/index.html",
         "type": "file",
-        "md5": "1378a7af55007d9043ade3ea4c8b3c4c"
+        "md5": "9286f3bd23b5cf33103865b231cc8285"
     },
     {
         "path": "authors/david-rutland/page",
@@ -162,7 +172,7 @@
     {
         "path": "/authors/david-rutland/page/10/index.html",
         "type": "file",
-        "md5": "81ea5b13b98556b5f5a6c9d58133b245"
+        "md5": "ba117bc439695f3843b0cba5754ea5be"
     },
     {
         "path": "authors/david-rutland/page/2",
@@ -172,7 +182,7 @@
     {
         "path": "/authors/david-rutland/page/2/index.html",
         "type": "file",
-        "md5": "69379a3c62ae2e1072814d4ee644f965"
+        "md5": "3c2bbb24092d4d7330cf9a0562d52024"
     },
     {
         "path": "authors/david-rutland/page/3",
@@ -182,7 +192,7 @@
     {
         "path": "/authors/david-rutland/page/3/index.html",
         "type": "file",
-        "md5": "3232ec375353e6ef0a4ad117064cdfae"
+        "md5": "d5caa47136eef852ced6abfeddeb70ec"
     },
     {
         "path": "authors/david-rutland/page/4",
@@ -192,7 +202,7 @@
     {
         "path": "/authors/david-rutland/page/4/index.html",
         "type": "file",
-        "md5": "c94143e6d9caef6f15d42a05ff04b2e1"
+        "md5": "601ea59e6780e8627a4a643420956cda"
     },
     {
         "path": "authors/david-rutland/page/5",
@@ -202,7 +212,7 @@
     {
         "path": "/authors/david-rutland/page/5/index.html",
         "type": "file",
-        "md5": "d0d5fda594a64489de8f7d53834c5cad"
+        "md5": "ea323a5990e08c0c31ee920dc34e44d1"
     },
     {
         "path": "authors/david-rutland/page/6",
@@ -212,7 +222,7 @@
     {
         "path": "/authors/david-rutland/page/6/index.html",
         "type": "file",
-        "md5": "afbd1188d04b7fbea8a2f3300a96fa11"
+        "md5": "42e86c92da054294b2423b26e1f9db87"
     },
     {
         "path": "authors/david-rutland/page/7",
@@ -222,7 +232,7 @@
     {
         "path": "/authors/david-rutland/page/7/index.html",
         "type": "file",
-        "md5": "a9e81180eb3aedd66c3bbaf80fb3d18c"
+        "md5": "4236ec54cd58485d47c32ca7c0824ff3"
     },
     {
         "path": "authors/david-rutland/page/8",
@@ -232,7 +242,7 @@
     {
         "path": "/authors/david-rutland/page/8/index.html",
         "type": "file",
-        "md5": "dd2d65d991719a46898ba487bf230590"
+        "md5": "1b2a22fda711fd352ca022c375501b82"
     },
     {
         "path": "authors/david-rutland/page/9",
@@ -242,7 +252,7 @@
     {
         "path": "/authors/david-rutland/page/9/index.html",
         "type": "file",
-        "md5": "c84ab8145a5f953727009cab93a7187b"
+        "md5": "4494f99048389bc0b5df36e3b1d7eeb3"
     },
     {
         "path": "bandcamp-support-is-faltering-maybe-you-should-download-your-music-now",
@@ -252,7 +262,7 @@
     {
         "path": "/bandcamp-support-is-faltering-maybe-you-should-download-your-music-now/index.html",
         "type": "file",
-        "md5": "f47db2a764c62544281b6666beef542e"
+        "md5": "058945c19f3c1ac9f7f42f7b3729d883"
     },
     {
         "path": "banish-search-spam-forever-with-ublacklist",
@@ -262,7 +272,7 @@
     {
         "path": "/banish-search-spam-forever-with-ublacklist/index.html",
         "type": "file",
-        "md5": "8b64e87913464e034fc76f1478efffee"
+        "md5": "c7998e78a4bb00782f839e3eed688517"
     },
     {
         "path": "book-review-rebel-code-linux-and-the-open-source-revolution-by-glyn-moody",
@@ -272,7 +282,7 @@
     {
         "path": "/book-review-rebel-code-linux-and-the-open-source-revolution-by-glyn-moody/index.html",
         "type": "file",
-        "md5": "3a00283aef8ba691ebce410082e91005"
+        "md5": "495f9d2faa410512620d6591018dfbeb"
     },
     {
         "path": "bypass-paywalls-clean-combines-all-soft-paywall-hacks-into-one-neat-package",
@@ -282,7 +292,7 @@
     {
         "path": "/bypass-paywalls-clean-combines-all-soft-paywall-hacks-into-one-neat-package/index.html",
         "type": "file",
-        "md5": "b53003ac58f32eb5ee42e645d35b7c88"
+        "md5": "f1f6d4b896713e45693193be2da9a967"
     },
     {
         "path": "cheap-portable-retro-gaming-with-a-hated-handheld",
@@ -292,7 +302,7 @@
     {
         "path": "/cheap-portable-retro-gaming-with-a-hated-handheld/index.html",
         "type": "file",
-        "md5": "c1dc6ae74843c77d474afeef38a1e7da"
+        "md5": "bd432e8de628fb7eb01cf705f0081231"
     },
     {
         "path": "comments-on-a-static-site-its-simpler-than-you-think",
@@ -302,7 +312,7 @@
     {
         "path": "/comments-on-a-static-site-its-simpler-than-you-think/index.html",
         "type": "file",
-        "md5": "339cb8b92d1f59e1cd2f04a559a64164"
+        "md5": "d5996502a7cb74fed2960fc138214c85"
     },
     {
         "path": "contact-the-crow",
@@ -312,7 +322,7 @@
     {
         "path": "/contact-the-crow/index.html",
         "type": "file",
-        "md5": "81b1483b8914bc464abcd9249dee45f2"
+        "md5": "0cede6d00cb59925bd38125435169b51"
     },
     {
         "path": "covfefe-words-of-wisdom-from-the-greatest-politicians-of-the-21st-century",
@@ -322,7 +332,7 @@
     {
         "path": "/covfefe-words-of-wisdom-from-the-greatest-politicians-of-the-21st-century/index.html",
         "type": "file",
-        "md5": "f9d9d8c60dd495e7ce1a6e8bc0675221"
+        "md5": "0dbcb695bab8c5d2ed35af320066e5b6"
     },
     {
         "path": "create-a-multi-textured-ambient-sonic-smorgasbord-on-linux-with-blanket",
@@ -332,7 +342,7 @@
     {
         "path": "/create-a-multi-textured-ambient-sonic-smorgasbord-on-linux-with-blanket/index.html",
         "type": "file",
-        "md5": "a2673fdc358682812e2e26171445ee9e"
+        "md5": "c96024cb304c7fadf3c3de5463bdb87b"
     },
     {
         "path": "delta-chat-going-old-school-with-the-future-of-messaging-apps",
@@ -342,7 +352,7 @@
     {
         "path": "/delta-chat-going-old-school-with-the-future-of-messaging-apps/index.html",
         "type": "file",
-        "md5": "4f848ff1094bd45762eb54a0f1d54e81"
+        "md5": "ec57c903a75891a34bf0db8afc8c7a9a"
     },
     {
         "path": "discover-your-most-used-linux-commands-with-muc",
@@ -352,7 +362,7 @@
     {
         "path": "/discover-your-most-used-linux-commands-with-muc/index.html",
         "type": "file",
-        "md5": "f71d2facf031852a59d3af06cdf31774"
+        "md5": "1e52f50115f91ac8ae7d0209cc712e1d"
     },
     {
         "path": "does-my-face-look-odd-in-this-staying-anonymous-with-fawkes-cloaking-tech",
@@ -362,7 +372,7 @@
     {
         "path": "/does-my-face-look-odd-in-this-staying-anonymous-with-fawkes-cloaking-tech/index.html",
         "type": "file",
-        "md5": "35b0a56d523fcae11357f3d43dd2661d"
+        "md5": "3a51ee09106e74f52a7b872a4c8b55e0"
     },
     {
         "path": "dont-trust-auntie-the-beeb-allows-social-networks-to-track-you",
@@ -372,7 +382,7 @@
     {
         "path": "/dont-trust-auntie-the-beeb-allows-social-networks-to-track-you/index.html",
         "type": "file",
-        "md5": "500510e5dafe6764da9d6e290171b79c"
+        "md5": "1b10d42d03463cd752ed32104d851982"
     },
     {
         "path": "dumpster-diving-for-tech-a-real-life-study-in-the-art-of-reduce-reuse-recycle",
@@ -382,7 +392,7 @@
     {
         "path": "/dumpster-diving-for-tech-a-real-life-study-in-the-art-of-reduce-reuse-recycle/index.html",
         "type": "file",
-        "md5": "21b96a7af6b4ad6e57fba115440d6a73"
+        "md5": "dd19c9be70a283ceb936d383150d1632"
     },
     {
         "path": "elegoo-neptune-4-max-large-format-3d-printer-review-at-homeneed-at-home",
@@ -392,7 +402,7 @@
     {
         "path": "/elegoo-neptune-4-max-large-format-3d-printer-review-at-homeneed-at-home/index.html",
         "type": "file",
-        "md5": "15c6db2c2e3c65df3db139e185c47648"
+        "md5": "25c85806595b580d886897391d7573ff"
     },
     {
         "path": "emulate-classic-game-boy-action-in-the-linux-terminal",
@@ -402,7 +412,7 @@
     {
         "path": "/emulate-classic-game-boy-action-in-the-linux-terminal/index.html",
         "type": "file",
-        "md5": "cabaf3c192843dd7ea288ca42b510b27"
+        "md5": "8bd09bb8bf3375739f460151d9e5e03a"
     },
     {
         "path": "every-day-an-area-of-the-amazon-equivalent-to-10-iphones-is-lost-to-illegal-forestry",
@@ -412,7 +422,7 @@
     {
         "path": "/every-day-an-area-of-the-amazon-equivalent-to-10-iphones-is-lost-to-illegal-forestry/index.html",
         "type": "file",
-        "md5": "5e08120d2efd7ea2535048cf54d61be3"
+        "md5": "4140deac73dcdabf6fc2d20aeb6f8205"
     },
     {
         "path": "fallout-london-running-well-linux-review",
@@ -422,7 +432,7 @@
     {
         "path": "/fallout-london-running-well-linux-review/index.html",
         "type": "file",
-        "md5": "7ef1b15c2f9c31e1088db3840dca0317"
+        "md5": "f88041cf585219e2e26aedb5c0c28056"
     },
     {
         "path": "far-from-the-madding-crowd-geminispace-and-the-smolweb",
@@ -432,7 +442,7 @@
     {
         "path": "/far-from-the-madding-crowd-geminispace-and-the-smolweb/index.html",
         "type": "file",
-        "md5": "37ae509d2242c61002cca6f4484726f8"
+        "md5": "6347f0f36308b8ade7d93a5f48f20da3"
     },
     {
         "path": "feed.json",
@@ -452,7 +462,7 @@
     {
         "path": "/forget-net-nanny-pihole-will-keep-your-kids-late-night-activity-in-check/index.html",
         "type": "file",
-        "md5": "934d20cd5059a7f7516a50cd21063846"
+        "md5": "1dcca34b16629b92b41b902484103038"
     },
     {
         "path": "freelancing-in-a-time-of-quarantine-and-why-rss-is-the-greatest",
@@ -462,7 +472,7 @@
     {
         "path": "/freelancing-in-a-time-of-quarantine-and-why-rss-is-the-greatest/index.html",
         "type": "file",
-        "md5": "c08adda8e2f7102e87de693d12862ae6"
+        "md5": "8b29377f426124681368b2c54c42606b"
     },
     {
         "path": "freshrss-stay-safe-and-never-visit-another-website-again",
@@ -472,7 +482,7 @@
     {
         "path": "/freshrss-stay-safe-and-never-visit-another-website-again/index.html",
         "type": "file",
-        "md5": "aedc6917a03327341fa01b45abda71c7"
+        "md5": "efca3ceb3eb308d61b8703b82ae1a539"
     },
     {
         "path": "g-lined-by-undernet-welcome-to-the-world-of-2020",
@@ -482,7 +492,7 @@
     {
         "path": "/g-lined-by-undernet-welcome-to-the-world-of-2020/index.html",
         "type": "file",
-        "md5": "90e3e9036c642c3d757f650b0d364d1d"
+        "md5": "2e0172f641475a4555c57bbbddf3ccd7"
     },
     {
         "path": "gamebox-300-barrels-of-emulated-fun-with-some-significant-drawbacks",
@@ -492,7 +502,7 @@
     {
         "path": "/gamebox-300-barrels-of-emulated-fun-with-some-significant-drawbacks/index.html",
         "type": "file",
-        "md5": "07ded4234be9b3e9fef611264367cb38"
+        "md5": "8596cec4297a98f8d788445dd425763e"
     },
     {
         "path": "gamelofts-the-oregon-trail-is-a-fun-time-suck",
@@ -502,7 +512,7 @@
     {
         "path": "/gamelofts-the-oregon-trail-is-a-fun-time-suck/index.html",
         "type": "file",
-        "md5": "2b31db95cc33cd86cb2e625307acaa52"
+        "md5": "0251ac5ea04dbe668fdffb1521d3cde7"
     },
     {
         "path": "generate-create-rss-feeds-any-website-with-mkfd-free-easy-tool",
@@ -512,7 +522,7 @@
     {
         "path": "/generate-create-rss-feeds-any-website-with-mkfd-free-easy-tool/index.html",
         "type": "file",
-        "md5": "270cb252e6c3ee85b0c29615c416b42c"
+        "md5": "d1f99f4ed5614eea8519f74ae3beee0a"
     },
     {
         "path": "get-my-ass-to-mars-the-crow-heads-into-space",
@@ -522,7 +532,7 @@
     {
         "path": "/get-my-ass-to-mars-the-crow-heads-into-space/index.html",
         "type": "file",
-        "md5": "7a7c2c263dcd19eeb889c16bde975f1e"
+        "md5": "3e159e9cc013575eac7d4d16e7767787"
     },
     {
         "path": "going-going-gone-how-to-easily-install-golang-on-linux",
@@ -532,7 +542,7 @@
     {
         "path": "/going-going-gone-how-to-easily-install-golang-on-linux/index.html",
         "type": "file",
-        "md5": "6bba84e812f3aa5c9ada4a2dc682395a"
+        "md5": "3001ea9f4bfafae09ae4b1b9ebbe48ae"
     },
     {
         "path": "google-to-limit-free-photo-storage-deploy-photoprism-and-host-your-own",
@@ -542,7 +552,7 @@
     {
         "path": "/google-to-limit-free-photo-storage-deploy-photoprism-and-host-your-own/index.html",
         "type": "file",
-        "md5": "14479b1d9c87835357bf278c071d1cd4"
+        "md5": "483a2a5c3d74b8690bd5101a018409ac"
     },
     {
         "path": "great-classic-games-you-can-play-in-your-linux-terminal",
@@ -552,7 +562,7 @@
     {
         "path": "/great-classic-games-you-can-play-in-your-linux-terminal/index.html",
         "type": "file",
-        "md5": "78d6b25318b3134962f5c75f14f5abe0"
+        "md5": "141cf0e3a5830488d0ef6ea99655d111"
     },
     {
         "path": "hes-justified-and-hes-ancient-and-he-may-have-burned-a-million-quid-he-plans-to-burn-more-what-jimmy-cauty-thinks-of-nft",
@@ -562,7 +572,7 @@
     {
         "path": "/hes-justified-and-hes-ancient-and-he-may-have-burned-a-million-quid-he-plans-to-burn-more-what-jimmy-cauty-thinks-of-nft/index.html",
         "type": "file",
-        "md5": "7d4eeba7066b130d788d9d4327eef3f3"
+        "md5": "7613b657f118bf64f4c8531f7c3fa0ae"
     },
     {
         "path": "how-many-services-can-you-self-host-on-a-raspberry-pi",
@@ -572,7 +582,7 @@
     {
         "path": "/how-many-services-can-you-self-host-on-a-raspberry-pi/index.html",
         "type": "file",
-        "md5": "664b345d451154fd039671bfe7b872fb"
+        "md5": "9b1e62d01a7f68704b5a5cf6c55fc92b"
     },
     {
         "path": "how-to-automatically-reject-cookies-and-hide-cookie-pop-ups-on-firefox",
@@ -582,7 +592,7 @@
     {
         "path": "/how-to-automatically-reject-cookies-and-hide-cookie-pop-ups-on-firefox/index.html",
         "type": "file",
-        "md5": "00586ecb72cf18888218dbd42c51938b"
+        "md5": "be6248814d89ca3e6967993666cf0336"
     },
     {
         "path": "how-to-get-the-2011-scrivener-beta-working-on-ubuntu-2204",
@@ -592,7 +602,7 @@
     {
         "path": "/how-to-get-the-2011-scrivener-beta-working-on-ubuntu-2204/index.html",
         "type": "file",
-        "md5": "5b2d41caf4db25c4a28d7b7a75995e7d"
+        "md5": "1e146fad55f0bbde5749c25b5d029bfa"
     },
     {
         "path": "how-to-install-specific-npm-and-node-versions-on-linux",
@@ -602,7 +612,7 @@
     {
         "path": "/how-to-install-specific-npm-and-node-versions-on-linux/index.html",
         "type": "file",
-        "md5": "51a518bf35d43ca83f477d09ad4847a7"
+        "md5": "51b4722bc178e7154a296e18b1423971"
     },
     {
         "path": "how-to-install-the-latest-version-of-docker-compose-on-linux-and-why-you-should",
@@ -612,7 +622,7 @@
     {
         "path": "/how-to-install-the-latest-version-of-docker-compose-on-linux-and-why-you-should/index.html",
         "type": "file",
-        "md5": "cfa59df3cc5bb3c3692721fe5cd75396"
+        "md5": "d635f2ea5e20c1dd710adb2d4492719d"
     },
     {
         "path": "how-to-run-wordpress-on-an-old-laptop-or-pc",
@@ -622,7 +632,7 @@
     {
         "path": "/how-to-run-wordpress-on-an-old-laptop-or-pc/index.html",
         "type": "file",
-        "md5": "e0d34804bfafa988f7dd68822f39855d"
+        "md5": "5c637e647e64696f26468cd09a61eeff"
     },
     {
         "path": "how-to-set-a-static-ip-address-for-your-raspberry-pi-server",
@@ -632,7 +642,7 @@
     {
         "path": "/how-to-set-a-static-ip-address-for-your-raspberry-pi-server/index.html",
         "type": "file",
-        "md5": "74be7dc1e1a80a77ee46d7a45b2011b4"
+        "md5": "ce3f3d96bcb6ace3695e957a18703809"
     },
     {
         "path": "how-to-use-chatgpt-35-from-your-terminal-without-api-keys-using-tgpt",
@@ -642,7 +652,7 @@
     {
         "path": "/how-to-use-chatgpt-35-from-your-terminal-without-api-keys-using-tgpt/index.html",
         "type": "file",
-        "md5": "9236e03489d83f40bd9d0b48691cc2e6"
+        "md5": "b6ccdb7dc78fe573229d767ee959dbf6"
     },
     {
         "path": "immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution",
@@ -652,7 +662,7 @@
     {
         "path": "/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/index.html",
         "type": "file",
-        "md5": "6b3911f3fc41f10bcc8e78b61c8e1686"
+        "md5": "58b33ca55dd38c3886c2619c4956a9ea"
     },
     {
         "path": "in-wake-of-epic-data-breach-samsung-forcing-users-to-accept-tandcs-or-risk-their-data",
@@ -662,12 +672,12 @@
     {
         "path": "/in-wake-of-epic-data-breach-samsung-forcing-users-to-accept-tandcs-or-risk-their-data/index.html",
         "type": "file",
-        "md5": "47ae2ac840690df5ac73b95efc8bb028"
+        "md5": "1e569fa146b88938d1576f47db72c2d9"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "60f987722a02e3c8508b4dc0f125b863"
+        "md5": "dba3d0b5003bc934b9e5519340699ffc"
     },
     {
         "path": "infinite-featured-post-scroll-with-publii-static-site-generator",
@@ -677,7 +687,7 @@
     {
         "path": "/infinite-featured-post-scroll-with-publii-static-site-generator/index.html",
         "type": "file",
-        "md5": "d3a4f68b125e53e3886e42fc31c62ec2"
+        "md5": "c580605f72bb0eea35743ada0bb54b6b"
     },
     {
         "path": "install-immich-on-a-raspberry-pi-and-replace-google-photos",
@@ -687,7 +697,7 @@
     {
         "path": "/install-immich-on-a-raspberry-pi-and-replace-google-photos/index.html",
         "type": "file",
-        "md5": "cd2ac6ede23842db2e47e03a1993ebdc"
+        "md5": "d94095a2d4f4a4f881feb1887acaa850"
     },
     {
         "path": "instantly-generate-configs-from-running-containers-with-docker-autocompose",
@@ -697,7 +707,7 @@
     {
         "path": "/instantly-generate-configs-from-running-containers-with-docker-autocompose/index.html",
         "type": "file",
-        "md5": "2b5345114686d6707a857c290c80c4ae"
+        "md5": "99dc65eb94169194976f69adcf77eaef"
     },
     {
         "path": "keep-an-eye-on-your-self-hosted-services-with-statping-ng",
@@ -707,7 +717,7 @@
     {
         "path": "/keep-an-eye-on-your-self-hosted-services-with-statping-ng/index.html",
         "type": "file",
-        "md5": "ec3cc21f24591d26449f4bbedb49db94"
+        "md5": "0acf56e03ae5fce7ec3ac9207034f6b6"
     },
     {
         "path": "languagetool-is-an-ai-powered-grammar-checker-you-can-self-host-on-your-own-hardware",
@@ -717,7 +727,7 @@
     {
         "path": "/languagetool-is-an-ai-powered-grammar-checker-you-can-self-host-on-your-own-hardware/index.html",
         "type": "file",
-        "md5": "39fea8ffeaa448825459e59b0823610a"
+        "md5": "29a6454da33ea63a50b8151d63dbe170"
     },
     {
         "path": "macos-on-linux-is-easier-than-you-think",
@@ -727,7 +737,7 @@
     {
         "path": "/macos-on-linux-is-easier-than-you-think/index.html",
         "type": "file",
-        "md5": "d3b5c5b7b0a0000a3d56f7c8e86ea9a1"
+        "md5": "996c5e0a873906384ebac7b81ae1c74f"
     },
     {
         "path": "markdowndown-lets-you-easily-convert-web-pages-to-markdown",
@@ -737,7 +747,7 @@
     {
         "path": "/markdowndown-lets-you-easily-convert-web-pages-to-markdown/index.html",
         "type": "file",
-        "md5": "70a9a244e717ab575a9a2cc3594c3131"
+        "md5": "8091ad60dc13534173f1af2cf451eea2"
     },
     {
         "path": "marktext-is-the-beautiful-cross-platform-markdown-editor-youve-been-looking-for",
@@ -747,7 +757,7 @@
     {
         "path": "/marktext-is-the-beautiful-cross-platform-markdown-editor-youve-been-looking-for/index.html",
         "type": "file",
-        "md5": "d554bde181717ff07d4b48a56f6daed7"
+        "md5": "a7c7cd5fae324a83244939ca3c78f508"
     },
     {
         "path": "mealie-probably-the-best-self-hosted-recipe-manager-in-the-world",
@@ -757,7 +767,7 @@
     {
         "path": "/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/index.html",
         "type": "file",
-        "md5": "14a1c2d0b34b5aeec40fc86de83fe2f2"
+        "md5": "9687a830e7e6c59803470323b3287ed5"
     },
     {
         "path": "media",
@@ -15822,7 +15832,7 @@
     {
         "path": "/mining-the-moon-pick-and-rocket-required/index.html",
         "type": "file",
-        "md5": "e55028eba9db2d20c8b0d9b7773e2799"
+        "md5": "dba2167500d37f3b6e16ea443af6b8b1"
     },
     {
         "path": "mirrors-where-were-going-we-wont-need-mirrors",
@@ -15832,7 +15842,7 @@
     {
         "path": "/mirrors-where-were-going-we-wont-need-mirrors/index.html",
         "type": "file",
-        "md5": "8229b822c8136dce48859fb76204c66c"
+        "md5": "3edb67efa79de2549b3c327f71582400"
     },
     {
         "path": "neal-stephensons-fall-how-deep-does-the-rabbit-hole-go",
@@ -15842,7 +15852,7 @@
     {
         "path": "/neal-stephensons-fall-how-deep-does-the-rabbit-hole-go/index.html",
         "type": "file",
-        "md5": "d6da52533d9c8e8f3801968f5372ad55"
+        "md5": "f0b657ab1bfb5957f3623ce5add4ddbf"
     },
     {
         "path": "nextcloud-cookbook-is-the-recipe-manager-you-didnt-know-you-needed",
@@ -15852,7 +15862,7 @@
     {
         "path": "/nextcloud-cookbook-is-the-recipe-manager-you-didnt-know-you-needed/index.html",
         "type": "file",
-        "md5": "6b1416f100dc5671bc32c78acd506a0f"
+        "md5": "ff570ee41aee97b668540342c7a56adc"
     },
     {
         "path": "nostalgia-privacy-and-family-portraits",
@@ -15862,7 +15872,7 @@
     {
         "path": "/nostalgia-privacy-and-family-portraits/index.html",
         "type": "file",
-        "md5": "2d48b1936019d81a4833104c9a556c28"
+        "md5": "fcb7b93d2dba54679867f910ab77f085"
     },
     {
         "path": "not-by-ai-a-badge-to-say-youre-mostly-human",
@@ -15872,7 +15882,7 @@
     {
         "path": "/not-by-ai-a-badge-to-say-youre-mostly-human/index.html",
         "type": "file",
-        "md5": "8c6d3758f27a659883a677b28b3ec4ea"
+        "md5": "5c757df642bf1fef136473829ac0bc5a"
     },
     {
         "path": "on-the-edge-of-disaster-microsofts-browser-on-linux",
@@ -15882,7 +15892,7 @@
     {
         "path": "/on-the-edge-of-disaster-microsofts-browser-on-linux/index.html",
         "type": "file",
-        "md5": "eaea5eb1c1013affbc032180176da984"
+        "md5": "b0a23a48ca6f97e9466e4943e41c303d"
     },
     {
         "path": "page",
@@ -15897,7 +15907,7 @@
     {
         "path": "/page/10/index.html",
         "type": "file",
-        "md5": "694c63531c984a0ca10a13ec2ba7e5a9"
+        "md5": "b280b0c88fd8f76f09081065c14a8ae4"
     },
     {
         "path": "page/11",
@@ -15907,7 +15917,7 @@
     {
         "path": "/page/11/index.html",
         "type": "file",
-        "md5": "9f1ef3ae0b4cc4e3bf7039c71b485079"
+        "md5": "3ab24e1fe82ce74bce7723813a80b49d"
     },
     {
         "path": "page/12",
@@ -15917,7 +15927,7 @@
     {
         "path": "/page/12/index.html",
         "type": "file",
-        "md5": "673d5dd11edd278a8829a5cef56ae887"
+        "md5": "82511f0c51972c30c808cc36a1a81feb"
     },
     {
         "path": "page/13",
@@ -15927,7 +15937,7 @@
     {
         "path": "/page/13/index.html",
         "type": "file",
-        "md5": "cf7a0b452f2f269f09bd6010eef45c78"
+        "md5": "ccfdec1d9e6bec5598aedaac91bbe48d"
     },
     {
         "path": "page/14",
@@ -15937,7 +15947,7 @@
     {
         "path": "/page/14/index.html",
         "type": "file",
-        "md5": "4410298cc84fbb649abe217025286336"
+        "md5": "cc44fb02cca3a5a3f6b97c2f15a456fc"
     },
     {
         "path": "page/15",
@@ -15947,7 +15957,7 @@
     {
         "path": "/page/15/index.html",
         "type": "file",
-        "md5": "f4466edf9f7940c337c02bd83ea054e9"
+        "md5": "caf7d0af18c666d671582b5c37609a2d"
     },
     {
         "path": "page/16",
@@ -15957,7 +15967,7 @@
     {
         "path": "/page/16/index.html",
         "type": "file",
-        "md5": "f3347c12ed26f8cc703835d26e31b798"
+        "md5": "69821e806ccde6eed0363de522eaad2c"
     },
     {
         "path": "page/17",
@@ -15967,7 +15977,7 @@
     {
         "path": "/page/17/index.html",
         "type": "file",
-        "md5": "ea629ba083c77d5b582697663cfa4afd"
+        "md5": "646997e11da7f60091e822f058fbfb2f"
     },
     {
         "path": "page/18",
@@ -15977,7 +15987,7 @@
     {
         "path": "/page/18/index.html",
         "type": "file",
-        "md5": "5ecace4a1b8b0b09ec214a13b41451bf"
+        "md5": "31a83a605f39c51df87cca1f1aac5402"
     },
     {
         "path": "page/19",
@@ -15987,7 +15997,7 @@
     {
         "path": "/page/19/index.html",
         "type": "file",
-        "md5": "0bbfbdc048974e6bb36198c53e040ac1"
+        "md5": "9192d05c83105bd02037d8a1993e6ff6"
     },
     {
         "path": "page/2",
@@ -15997,7 +16007,7 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "77ed911b7a3bf79a49763a07bd104c94"
+        "md5": "23f4e0ff1ce017b5fd756603952eb14a"
     },
     {
         "path": "page/20",
@@ -16007,7 +16017,7 @@
     {
         "path": "/page/20/index.html",
         "type": "file",
-        "md5": "5d61f817085eec14778d84154afdea46"
+        "md5": "70fd4b51ca60b3a5e4ac8afeed1805b6"
     },
     {
         "path": "page/3",
@@ -16017,7 +16027,7 @@
     {
         "path": "/page/3/index.html",
         "type": "file",
-        "md5": "fb7c1f703e7ec39845c7ab855909fd58"
+        "md5": "79dfac47da74b8badacf02856e2b9802"
     },
     {
         "path": "page/4",
@@ -16027,7 +16037,7 @@
     {
         "path": "/page/4/index.html",
         "type": "file",
-        "md5": "6d0f13791b1858d80443a0eef1a5f667"
+        "md5": "f2fb252442dcba73e881904f5d563a62"
     },
     {
         "path": "page/5",
@@ -16037,7 +16047,7 @@
     {
         "path": "/page/5/index.html",
         "type": "file",
-        "md5": "9ca14a380a0c1240a5548016e02244a2"
+        "md5": "9e2f8b90f2dbd513ac1a27896f847602"
     },
     {
         "path": "page/6",
@@ -16047,7 +16057,7 @@
     {
         "path": "/page/6/index.html",
         "type": "file",
-        "md5": "99ec8eb2399d4bab9a1fa6c970aed262"
+        "md5": "6df1e235f95acc83a5de44bd3dc84b15"
     },
     {
         "path": "page/7",
@@ -16057,7 +16067,7 @@
     {
         "path": "/page/7/index.html",
         "type": "file",
-        "md5": "7decf1ea7b87d72395adadf42c1370ca"
+        "md5": "17a53592507e84865c0f893aa7c415e0"
     },
     {
         "path": "page/8",
@@ -16067,7 +16077,7 @@
     {
         "path": "/page/8/index.html",
         "type": "file",
-        "md5": "c5faeba46b861ab0314dc88426c6de18"
+        "md5": "27cce2a1f8298041f7bcee5310401bcd"
     },
     {
         "path": "page/9",
@@ -16077,7 +16087,7 @@
     {
         "path": "/page/9/index.html",
         "type": "file",
-        "md5": "0f3e0808f9dcd622c027df4eed0baf86"
+        "md5": "9363a34ef86996cb48648ead21a0d7cb"
     },
     {
         "path": "paranoid-and-perplexed-by-plex-privacy-pickle-just-enjoy-jellyfin",
@@ -16087,7 +16097,7 @@
     {
         "path": "/paranoid-and-perplexed-by-plex-privacy-pickle-just-enjoy-jellyfin/index.html",
         "type": "file",
-        "md5": "5e493b180543810669fcd26d04dff3ee"
+        "md5": "5f0f0db6d95abf9c2a5a50acd2a5f925"
     },
     {
         "path": "play-the-first-ever-text-adventure-game-in-your-linux-terminal",
@@ -16097,7 +16107,7 @@
     {
         "path": "/play-the-first-ever-text-adventure-game-in-your-linux-terminal/index.html",
         "type": "file",
-        "md5": "3ebd9d18db4cabbb4d8017057b7b5ec7"
+        "md5": "0ffc6a0e8452646fba6fb9644b404427"
     },
     {
         "path": "podman-tui-makes-managing-containers-a-breeze",
@@ -16107,7 +16117,7 @@
     {
         "path": "/podman-tui-makes-managing-containers-a-breeze/index.html",
         "type": "file",
-        "md5": "9756767e3e9f6ba396660c27854532dd"
+        "md5": "a18219785136bb2a7e6098d01119e242"
     },
     {
         "path": "print-your-way-through-the-zombie-apocalypse",
@@ -16117,7 +16127,7 @@
     {
         "path": "/print-your-way-through-the-zombie-apocalypse/index.html",
         "type": "file",
-        "md5": "605494a7d061df028cc5268f82918a0d"
+        "md5": "4a94112452751059f2ba2025ec5df774"
     },
     {
         "path": "privacy-policy",
@@ -16127,7 +16137,7 @@
     {
         "path": "/privacy-policy/index.html",
         "type": "file",
-        "md5": "b2a4bffe526b04bb64e5920d77e414e6"
+        "md5": "748a0feb6192c0539cf79a372db457c9"
     },
     {
         "path": "protect-your-inbox-from-spam-and-online-threats",
@@ -16137,7 +16147,7 @@
     {
         "path": "/protect-your-inbox-from-spam-and-online-threats/index.html",
         "type": "file",
-        "md5": "6b0bbf0f46a32245e3fb1dc8ce0e9198"
+        "md5": "f76168d2429ec622e9a925c234121b1f"
     },
     {
         "path": "pyphoon-gives-you-an-accurate-ascii-moon-phase-in-your-terminal",
@@ -16147,7 +16157,7 @@
     {
         "path": "/pyphoon-gives-you-an-accurate-ascii-moon-phase-in-your-terminal/index.html",
         "type": "file",
-        "md5": "5269ecc56b4a4332b3d1302198b13f3c"
+        "md5": "b0bf8f773fb221e325a7f31387ff3b84"
     },
     {
         "path": "qr-codes-are-for-suckers-its-time-to-break-them-for-good",
@@ -16157,7 +16167,7 @@
     {
         "path": "/qr-codes-are-for-suckers-its-time-to-break-them-for-good/index.html",
         "type": "file",
-        "md5": "55825a9e4498558dd6e72a4bc4c100da"
+        "md5": "9f7a788902cebbbad6f55105636718bf"
     },
     {
         "path": "quickly-rectify-time-consuming-terminal-typos-on-linux-with-thefuck",
@@ -16167,7 +16177,7 @@
     {
         "path": "/quickly-rectify-time-consuming-terminal-typos-on-linux-with-thefuck/index.html",
         "type": "file",
-        "md5": "b8008461a3aa5a3c8f28a97973bd8489"
+        "md5": "dc005eaeadd060f725747f7fe0193292"
     },
     {
         "path": "radio-active-is-an-instantly-usable-internet-radio-tui",
@@ -16177,7 +16187,7 @@
     {
         "path": "/radio-active-is-an-instantly-usable-internet-radio-tui/index.html",
         "type": "file",
-        "md5": "c4b6acd3a7f0f4e5f88ded3fb926148e"
+        "md5": "c24bb3781a86b0b4098332672b290258"
     },
     {
         "path": "relive-the-glory-days-of-crt-monitors-with-cool-retro-term",
@@ -16187,7 +16197,7 @@
     {
         "path": "/relive-the-glory-days-of-crt-monitors-with-cool-retro-term/index.html",
         "type": "file",
-        "md5": "6c8b8da2ddba547d7c177051fcfb9290"
+        "md5": "437d1f69aea92af85bc28e4b79c848a1"
     },
     {
         "path": "robots.txt",
@@ -16202,7 +16212,7 @@
     {
         "path": "/seizing-the-means-of-production-with-an-anycubic-photon-mono-resin-printer/index.html",
         "type": "file",
-        "md5": "4e42a8fc2570ee7fb41496594a07c90e"
+        "md5": "8fb89221f5f2b86e4ce617c2eaeda370"
     },
     {
         "path": "self-host-your-own-audio-library-with-audiobookshelf",
@@ -16212,7 +16222,7 @@
     {
         "path": "/self-host-your-own-audio-library-with-audiobookshelf/index.html",
         "type": "file",
-        "md5": "51a7a983897678f9a582ff8ae5802d81"
+        "md5": "040e4675ecb67a6744626c47c430fbe9"
     },
     {
         "path": "self-hosted-recipe-managers-to-make-cooking-a-joy",
@@ -16222,7 +16232,7 @@
     {
         "path": "/self-hosted-recipe-managers-to-make-cooking-a-joy/index.html",
         "type": "file",
-        "md5": "6f4d3fcb6ea1c74c049dd35ece4b04f0"
+        "md5": "ecf3c0180329ba83f05e068e7f1e27d7"
     },
     {
         "path": "service-model-by-adrian-tchaikovsky-a-darkly-tragic-comedy-of-civilisations-end",
@@ -16232,7 +16242,7 @@
     {
         "path": "/service-model-by-adrian-tchaikovsky-a-darkly-tragic-comedy-of-civilisations-end/index.html",
         "type": "file",
-        "md5": "df80bc182d082791f98af0011cbaf034"
+        "md5": "e26907fac3636ed5915f4e49eea7b39a"
     },
     {
         "path": "set-up-your-own-xmpp-server-on-a-raspberry-pi-in-under-five-minutes",
@@ -16242,12 +16252,12 @@
     {
         "path": "/set-up-your-own-xmpp-server-on-a-raspberry-pi-in-under-five-minutes/index.html",
         "type": "file",
-        "md5": "02914eab631b63f41d23d2df2395855a"
+        "md5": "0d0f312fb44e3242be406fb07c34117d"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "de54744d7f9651fb30ce70dabfafb916"
+        "md5": "444de031b286bc7649dcda50f96ff681"
     },
     {
         "path": "sitemap.xsl",
@@ -16262,7 +16272,7 @@
     {
         "path": "/sun-worshipper-off-grid-with-a-solar-kettle-tried-and-tested/index.html",
         "type": "file",
-        "md5": "f2d87ce622b6058786bef8b218987cce"
+        "md5": "1fe139fa63e3c7d172d5fb3cd7c29ed9"
     },
     {
         "path": "tags",
@@ -16277,7 +16287,7 @@
     {
         "path": "/tags/3d-printing/index.html",
         "type": "file",
-        "md5": "ef376f7b87344aab93f171cb2fdb94a6"
+        "md5": "dbdea2ecaea49ffd0abdccc2f7437785"
     },
     {
         "path": "tags/ai",
@@ -16287,7 +16297,7 @@
     {
         "path": "/tags/ai/index.html",
         "type": "file",
-        "md5": "51360ce04a0877853313d28e5fe222b6"
+        "md5": "8551f10494462358d4849d76e3ea3632"
     },
     {
         "path": "tags/amazon",
@@ -16297,7 +16307,7 @@
     {
         "path": "/tags/amazon/index.html",
         "type": "file",
-        "md5": "5f8bec80df9f7855d2d800cc83908ec3"
+        "md5": "dd4541cac1b1de3808ad1bfe3f692921"
     },
     {
         "path": "tags/audio",
@@ -16307,7 +16317,7 @@
     {
         "path": "/tags/audio/index.html",
         "type": "file",
-        "md5": "9a070efda2fd0f202fcf55273647cfa8"
+        "md5": "30815080bdc4e69ee4423978425dc3a6"
     },
     {
         "path": "tags/books",
@@ -16317,7 +16327,7 @@
     {
         "path": "/tags/books/index.html",
         "type": "file",
-        "md5": "dd6f1fa8254e021ccac481595d841af8"
+        "md5": "e31af13c8f836663aea1291426e97c67"
     },
     {
         "path": "tags/browser",
@@ -16327,7 +16337,7 @@
     {
         "path": "/tags/browser/index.html",
         "type": "file",
-        "md5": "d025f659aed99d8166a643fadd875184"
+        "md5": "4cf14a77d0cd03775d2ec2fdba7445dd"
     },
     {
         "path": "tags/cool-things",
@@ -16337,7 +16347,7 @@
     {
         "path": "/tags/cool-things/index.html",
         "type": "file",
-        "md5": "0efb3ba3a4fc26096cdf7f69ae0e39e6"
+        "md5": "ea7e8fa88b3160a7c1c13e1f8d03ed2e"
     },
     {
         "path": "tags/cyberdeck",
@@ -16347,7 +16357,7 @@
     {
         "path": "/tags/cyberdeck/index.html",
         "type": "file",
-        "md5": "bd013579a7d4e6b99374f19f337f9d93"
+        "md5": "266da9b5bd8567b9a366a746ff82d69a"
     },
     {
         "path": "tags/emulation",
@@ -16357,7 +16367,7 @@
     {
         "path": "/tags/emulation/index.html",
         "type": "file",
-        "md5": "902674fd669643fca25d36126601e441"
+        "md5": "dcf09581b07ba30d6c54701776ce5a62"
     },
     {
         "path": "tags/entertainment",
@@ -16367,7 +16377,7 @@
     {
         "path": "/tags/entertainment/index.html",
         "type": "file",
-        "md5": "15a2783bbe98eb233dae8e7ee881a6ac"
+        "md5": "f6af9ed7fb31aa1d1c21d8c4dd3c8c48"
     },
     {
         "path": "tags/extensions",
@@ -16377,7 +16387,7 @@
     {
         "path": "/tags/extensions/index.html",
         "type": "file",
-        "md5": "9b81666b6dc3a3140f0cf6ccaee504dc"
+        "md5": "be5c6eca8f7555708a9e5a32c0fee878"
     },
     {
         "path": "tags/food",
@@ -16387,7 +16397,7 @@
     {
         "path": "/tags/food/index.html",
         "type": "file",
-        "md5": "bf713b51f84612158907c903059996a0"
+        "md5": "dbe4a4ff5d09a0295afa71ac62afe841"
     },
     {
         "path": "tags/gaming",
@@ -16397,7 +16407,7 @@
     {
         "path": "/tags/gaming/index.html",
         "type": "file",
-        "md5": "b1051872fc99b63225e631b7acbbc777"
+        "md5": "517986b763971c3e2118c3d6bea47f34"
     },
     {
         "path": "tags/github",
@@ -16407,7 +16417,7 @@
     {
         "path": "/tags/github/index.html",
         "type": "file",
-        "md5": "433eda91cda2f9235e4ef0507444dfc8"
+        "md5": "276c97e85e829e4d6f13c62d45705800"
     },
     {
         "path": "tags/guide",
@@ -16417,7 +16427,7 @@
     {
         "path": "/tags/guide/index.html",
         "type": "file",
-        "md5": "e33f43f0f9702c7df093ed6512b85d54"
+        "md5": "395b28aa9bd05ecb8b8d3983e1a0d291"
     },
     {
         "path": "tags/hardware",
@@ -16427,7 +16437,7 @@
     {
         "path": "/tags/hardware/index.html",
         "type": "file",
-        "md5": "70fce68065aa443e5e7fadd91699a9e2"
+        "md5": "3e19373c097d78b567b379c3a326eb2b"
     },
     {
         "path": "tags/hardware/page",
@@ -16442,7 +16452,7 @@
     {
         "path": "/tags/hardware/page/2/index.html",
         "type": "file",
-        "md5": "9e18cc2594e8d7b4f04dd08377d71ee5"
+        "md5": "0d429cb2f4487e0d2fac70c05aa7d6a2"
     },
     {
         "path": "tags/hosting",
@@ -16452,12 +16462,12 @@
     {
         "path": "/tags/hosting/index.html",
         "type": "file",
-        "md5": "9d737405f503af4a6e674a0fb4e65ba3"
+        "md5": "c7d7f9614cb1ab43077df5b3f2bb5bf9"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "b3ca7992813a548404741816854ea396"
+        "md5": "d62fbf387612014886dc82f4b8c489f2"
     },
     {
         "path": "tags/internet",
@@ -16467,7 +16477,7 @@
     {
         "path": "/tags/internet/index.html",
         "type": "file",
-        "md5": "4809364d9f547d15fc8c0ce7ab26cc02"
+        "md5": "7141e6becca217d08fd6382892692d89"
     },
     {
         "path": "tags/internet/page",
@@ -16482,7 +16492,7 @@
     {
         "path": "/tags/internet/page/2/index.html",
         "type": "file",
-        "md5": "dd3d0b62aa78240669d615089f3c05cc"
+        "md5": "705b9c6c16e25e3e0f6cf77c2b5b08e0"
     },
     {
         "path": "tags/internet/page/3",
@@ -16492,7 +16502,7 @@
     {
         "path": "/tags/internet/page/3/index.html",
         "type": "file",
-        "md5": "c009d8dad0f1a003f46dbace0c4c82c5"
+        "md5": "3c883a45874b071512540eb10af20734"
     },
     {
         "path": "tags/internet/page/4",
@@ -16502,7 +16512,7 @@
     {
         "path": "/tags/internet/page/4/index.html",
         "type": "file",
-        "md5": "5561e24465673c576effa020f672d251"
+        "md5": "bdffe2c1da5901afcb14650de8a5e2c6"
     },
     {
         "path": "tags/laptops",
@@ -16512,7 +16522,7 @@
     {
         "path": "/tags/laptops/index.html",
         "type": "file",
-        "md5": "b8735ccc820fb8fc37e64f4b434c6d2b"
+        "md5": "111d6774bc653b247c0cc854098cc39a"
     },
     {
         "path": "tags/linux",
@@ -16522,7 +16532,7 @@
     {
         "path": "/tags/linux/index.html",
         "type": "file",
-        "md5": "640a591a876b799508e09ef8ddd94265"
+        "md5": "828a48f186c93cc5c4f9c9149cf92980"
     },
     {
         "path": "tags/linux/page",
@@ -16537,7 +16547,7 @@
     {
         "path": "/tags/linux/page/2/index.html",
         "type": "file",
-        "md5": "f6e0da05237f6fd53b8c1278aa735236"
+        "md5": "bdd9e9e2256489373a3e84a6f4e444e7"
     },
     {
         "path": "tags/macos",
@@ -16547,7 +16557,7 @@
     {
         "path": "/tags/macos/index.html",
         "type": "file",
-        "md5": "38fec075e181af1bc1cecb395c457103"
+        "md5": "261ff72f5ce31e1f746b26f55e833b60"
     },
     {
         "path": "tags/markdown",
@@ -16557,7 +16567,7 @@
     {
         "path": "/tags/markdown/index.html",
         "type": "file",
-        "md5": "c16c49d86daefcb880d304341fef5761"
+        "md5": "9d64ed2e817fb770aba89f5877f9dcca"
     },
     {
         "path": "tags/microsoft",
@@ -16567,7 +16577,7 @@
     {
         "path": "/tags/microsoft/index.html",
         "type": "file",
-        "md5": "d113cee606a800fa1e29dfd127df62f2"
+        "md5": "73cc8a87f3588e47762e437cee5b0a64"
     },
     {
         "path": "tags/monitoring",
@@ -16577,7 +16587,7 @@
     {
         "path": "/tags/monitoring/index.html",
         "type": "file",
-        "md5": "114338f93661606119fed90adeb5da6b"
+        "md5": "10ed6ef43817650032eee0e6f4223bc5"
     },
     {
         "path": "tags/offbeat",
@@ -16587,7 +16597,7 @@
     {
         "path": "/tags/offbeat/index.html",
         "type": "file",
-        "md5": "56dd0097a7477f9b95ffe6fc69e1f563"
+        "md5": "8f5ee43643925530df4a1d3077768be0"
     },
     {
         "path": "tags/offbeat/page",
@@ -16602,7 +16612,7 @@
     {
         "path": "/tags/offbeat/page/2/index.html",
         "type": "file",
-        "md5": "5861ce6dfdb3f5be85d6ecee74ee8339"
+        "md5": "68f726a9c7c0ba5218d3415e9e692546"
     },
     {
         "path": "tags/opinion",
@@ -16612,7 +16622,7 @@
     {
         "path": "/tags/opinion/index.html",
         "type": "file",
-        "md5": "464ced3436a79d796cac5bb3a2874bb1"
+        "md5": "925979f3c96703402eb5e0483c407b89"
     },
     {
         "path": "tags/privacy",
@@ -16622,7 +16632,7 @@
     {
         "path": "/tags/privacy/index.html",
         "type": "file",
-        "md5": "b6616f974808fbc6fa11b90486f80054"
+        "md5": "67c407ddcce307e46733d5a427e93581"
     },
     {
         "path": "tags/privacy/page",
@@ -16637,7 +16647,7 @@
     {
         "path": "/tags/privacy/page/2/index.html",
         "type": "file",
-        "md5": "fa2d1f3c2195b022fcddc5199a9ef897"
+        "md5": "f8e4738f64a66080d237632eb1037b4b"
     },
     {
         "path": "tags/raspberry-pi",
@@ -16647,7 +16657,7 @@
     {
         "path": "/tags/raspberry-pi/index.html",
         "type": "file",
-        "md5": "fcad882539ae659681f8a6a0aaf1efdc"
+        "md5": "81bf08b2fc705c69ede81918ea0f8b53"
     },
     {
         "path": "tags/retro",
@@ -16657,7 +16667,7 @@
     {
         "path": "/tags/retro/index.html",
         "type": "file",
-        "md5": "40cf38fbba7295273855b6a1dff342f6"
+        "md5": "db80f3af9dfcef5c14a104d2ba8eeb73"
     },
     {
         "path": "tags/review",
@@ -16667,7 +16677,7 @@
     {
         "path": "/tags/review/index.html",
         "type": "file",
-        "md5": "a1aeae4832184eb7a579afa8d778b537"
+        "md5": "a0629dc86c7200b464410c836577cb5e"
     },
     {
         "path": "tags/rss",
@@ -16677,7 +16687,7 @@
     {
         "path": "/tags/rss/index.html",
         "type": "file",
-        "md5": "fc1bd00d32d2e2fb8b11999dc3120584"
+        "md5": "5ea0a8f553a69ac2bfa01a969600d921"
     },
     {
         "path": "tags/scam",
@@ -16687,7 +16697,7 @@
     {
         "path": "/tags/scam/index.html",
         "type": "file",
-        "md5": "4351af02453bff01b522ca8b4dc4219c"
+        "md5": "91fa3acf873a8d55eb3af353ae3b76a2"
     },
     {
         "path": "tags/security",
@@ -16697,7 +16707,7 @@
     {
         "path": "/tags/security/index.html",
         "type": "file",
-        "md5": "2a121ec49a429014a52661dcbed75a67"
+        "md5": "c18d20776eb7cd02f34c00ba5a5c37e6"
     },
     {
         "path": "tags/security/page",
@@ -16712,7 +16722,7 @@
     {
         "path": "/tags/security/page/2/index.html",
         "type": "file",
-        "md5": "6eaf0ce25fd49df7516a934839152bf8"
+        "md5": "5a963f56ed572fcf7e150867b321ad69"
     },
     {
         "path": "tags/self-hosting",
@@ -16722,7 +16732,7 @@
     {
         "path": "/tags/self-hosting/index.html",
         "type": "file",
-        "md5": "1a057c67366967f34f5f41fd07546136"
+        "md5": "b4e94ea9c5aedd3501d727abba309e4b"
     },
     {
         "path": "tags/self-hosting/page",
@@ -16737,7 +16747,7 @@
     {
         "path": "/tags/self-hosting/page/2/index.html",
         "type": "file",
-        "md5": "2f9c62c5fa7f68443bb995741253bc6c"
+        "md5": "8e5f4388bcd50614798b4394f2c9ec75"
     },
     {
         "path": "tags/self-hosting/page/3",
@@ -16747,7 +16757,7 @@
     {
         "path": "/tags/self-hosting/page/3/index.html",
         "type": "file",
-        "md5": "2fa2d8960158ace3385873112c7f2764"
+        "md5": "252d3d824d7060ff1f38cab13129365c"
     },
     {
         "path": "tags/social-media",
@@ -16757,7 +16767,7 @@
     {
         "path": "/tags/social-media/index.html",
         "type": "file",
-        "md5": "afb547c415eb92618a283119a85786d1"
+        "md5": "5436b3a7e1eb2ec91dd47796e673bdd1"
     },
     {
         "path": "tags/software",
@@ -16767,7 +16777,7 @@
     {
         "path": "/tags/software/index.html",
         "type": "file",
-        "md5": "fc89583f81c34926f8a1b7a30eed71dd"
+        "md5": "4410fd278c973c0a6ca2adfe249a8b2f"
     },
     {
         "path": "tags/software/page",
@@ -16782,7 +16792,7 @@
     {
         "path": "/tags/software/page/2/index.html",
         "type": "file",
-        "md5": "95a22c9eff61ac77c5dd53d33c75e587"
+        "md5": "a12dede78291ba730022c67bcb8ecc6a"
     },
     {
         "path": "tags/software/page/3",
@@ -16792,7 +16802,7 @@
     {
         "path": "/tags/software/page/3/index.html",
         "type": "file",
-        "md5": "da32815a543d704546f9af753bf10517"
+        "md5": "2a3c15d2e1f1f973f1b987e0503bf85e"
     },
     {
         "path": "tags/software/page/4",
@@ -16802,7 +16812,7 @@
     {
         "path": "/tags/software/page/4/index.html",
         "type": "file",
-        "md5": "394e65d21a1148b72f1d5c45e58c7614"
+        "md5": "8da14bfdb786d18a89806462a8ec9013"
     },
     {
         "path": "tags/software/page/5",
@@ -16812,7 +16822,7 @@
     {
         "path": "/tags/software/page/5/index.html",
         "type": "file",
-        "md5": "6b22e84caf2a4009df9e4285484625b0"
+        "md5": "0ccfdf483a4e9820c673557ddd0b1e10"
     },
     {
         "path": "tags/software/page/6",
@@ -16822,7 +16832,7 @@
     {
         "path": "/tags/software/page/6/index.html",
         "type": "file",
-        "md5": "00201c01ac227d95505d44603078a21d"
+        "md5": "7b783be375ee4f7b20497a5fc6e849a2"
     },
     {
         "path": "tags/space",
@@ -16832,7 +16842,7 @@
     {
         "path": "/tags/space/index.html",
         "type": "file",
-        "md5": "ccf8d9d81463d26553ef086ea4f0913c"
+        "md5": "9cd1ab8581202086c65cc1812117292c"
     },
     {
         "path": "tags/steam",
@@ -16842,7 +16852,7 @@
     {
         "path": "/tags/steam/index.html",
         "type": "file",
-        "md5": "9c95108a20c59d1723eed37809e822aa"
+        "md5": "5583f741435906d2b5c28356b5666e86"
     },
     {
         "path": "tags/stuff",
@@ -16852,7 +16862,7 @@
     {
         "path": "/tags/stuff/index.html",
         "type": "file",
-        "md5": "cc95f84849793a7474e3be8449d68bc8"
+        "md5": "8e291d213d2dc63663b72caaa5ed5729"
     },
     {
         "path": "tags/terminal",
@@ -16862,7 +16872,7 @@
     {
         "path": "/tags/terminal/index.html",
         "type": "file",
-        "md5": "d40670852218770226bc72b0eeaeb7d8"
+        "md5": "3d40dcf569f6e890c6ec4a754d08c86f"
     },
     {
         "path": "tags/tips",
@@ -16872,7 +16882,7 @@
     {
         "path": "/tags/tips/index.html",
         "type": "file",
-        "md5": "b61d17194697217616d7a9ee25178588"
+        "md5": "ac3e2f268ad7d0243d504c3657faa29a"
     },
     {
         "path": "tags/tips/page",
@@ -16887,7 +16897,7 @@
     {
         "path": "/tags/tips/page/2/index.html",
         "type": "file",
-        "md5": "daff5a98bee38086293466fc12fca688"
+        "md5": "769a5f912e670a67c5ed7caac75c577e"
     },
     {
         "path": "tags/tips/page/3",
@@ -16897,7 +16907,7 @@
     {
         "path": "/tags/tips/page/3/index.html",
         "type": "file",
-        "md5": "069d27d9c723442df5418bab8e2239b5"
+        "md5": "be69d2c7b570218adf251deed3c2d240"
     },
     {
         "path": "tags/tools",
@@ -16907,7 +16917,7 @@
     {
         "path": "/tags/tools/index.html",
         "type": "file",
-        "md5": "b4a305913a7374ebafe6131793f44efa"
+        "md5": "51e9c1c50cf70af43b4910e9c907186e"
     },
     {
         "path": "tags/wine",
@@ -16917,7 +16927,7 @@
     {
         "path": "/tags/wine/index.html",
         "type": "file",
-        "md5": "1ad298dfc70a42d1167aa6cca64265af"
+        "md5": "c700004c51da8c100e43c33f9a8fac47"
     },
     {
         "path": "terminal-roulette-is-a-classic-casino-game-in-your-terminal",
@@ -16927,7 +16937,7 @@
     {
         "path": "/terminal-roulette-is-a-classic-casino-game-in-your-terminal/index.html",
         "type": "file",
-        "md5": "aff18ebcfcdd4da62533bbd786b4c6c2"
+        "md5": "bb481a4eb7f908d485857a02758b8e17"
     },
     {
         "path": "the-2022-lastpass-data-breach-is-starting-to-look-truly-horrendous",
@@ -16937,7 +16947,7 @@
     {
         "path": "/the-2022-lastpass-data-breach-is-starting-to-look-truly-horrendous/index.html",
         "type": "file",
-        "md5": "2eed9c58e1e84d92c5fe8d7572344490"
+        "md5": "e266847828b8951f6c6baa892571cdcd"
     },
     {
         "path": "the-clipboard-project-is-copy-paste-wizardry-in-your-linux-terminal",
@@ -16947,7 +16957,7 @@
     {
         "path": "/the-clipboard-project-is-copy-paste-wizardry-in-your-linux-terminal/index.html",
         "type": "file",
-        "md5": "1e3d2103499b09fa367c885cfb7ec042"
+        "md5": "297b16a588a42353940895d4a268d041"
     },
     {
         "path": "the-crows-predictions-for-2022-better-late-than-never",
@@ -16957,7 +16967,7 @@
     {
         "path": "/the-crows-predictions-for-2022-better-late-than-never/index.html",
         "type": "file",
-        "md5": "219c32d663006360261ca15078aa630a"
+        "md5": "1295a1a6b127b1261e9f33608c69f5ea"
     },
     {
         "path": "the-crows-predictions-for-2023",
@@ -16967,7 +16977,7 @@
     {
         "path": "/the-crows-predictions-for-2023/index.html",
         "type": "file",
-        "md5": "b4b18beb50c32b4c354d7e77900e906c"
+        "md5": "d8652dd7677dcad0ccdc9941103400fd"
     },
     {
         "path": "the-outer-worlds-the-game-fallout-4-should-have-been",
@@ -16977,7 +16987,7 @@
     {
         "path": "/the-outer-worlds-the-game-fallout-4-should-have-been/index.html",
         "type": "file",
-        "md5": "d2e71369c63d27f366a414e66522bd02"
+        "md5": "5ca01b000b4380071c4f98af492298a7"
     },
     {
         "path": "the-pandemic-playlist-survive-lockdown-with-these-viral-classics",
@@ -16987,7 +16997,7 @@
     {
         "path": "/the-pandemic-playlist-survive-lockdown-with-these-viral-classics/index.html",
         "type": "file",
-        "md5": "e9554739038e44ed5f76422feb67d36e"
+        "md5": "239238c862f65f4df1761bebd8136d05"
     },
     {
         "path": "the-precinct-game-review-pc-linux",
@@ -16997,7 +17007,7 @@
     {
         "path": "/the-precinct-game-review-pc-linux/index.html",
         "type": "file",
-        "md5": "b8cce01694600b3bff1e49f273244644"
+        "md5": "3797dd68449e81b6d2224ca99c5b9f42"
     },
     {
         "path": "the-teeniest-tiniest-laptop-in-the-west",
@@ -17007,7 +17017,7 @@
     {
         "path": "/the-teeniest-tiniest-laptop-in-the-west/index.html",
         "type": "file",
-        "md5": "1bb1b5f858bed2bf225b46dd2846426f"
+        "md5": "aa4e661d08a5b354753a0a3774a79867"
     },
     {
         "path": "this-item-has-been-flagged-as-inappropriate-what-google-reads-in-your-private-docs",
@@ -17017,7 +17027,7 @@
     {
         "path": "/this-item-has-been-flagged-as-inappropriate-what-google-reads-in-your-private-docs/index.html",
         "type": "file",
-        "md5": "413a87b621dcaee69b3547727c3621f0"
+        "md5": "4a300dd90de01bbb289b7df4f137afa3"
     },
     {
         "path": "trilium-notes-is-the-self-hosted-evernote-alternative-youre-looking-for",
@@ -17027,7 +17037,7 @@
     {
         "path": "/trilium-notes-is-the-self-hosted-evernote-alternative-youre-looking-for/index.html",
         "type": "file",
-        "md5": "fe6530ca915bd14e9a2a8c207996e98b"
+        "md5": "e636acc5ab2ebd45f02e4ac150d86ee1"
     },
     {
         "path": "tui-mines-is-classic-minesweeper-action-in-a-linux-terminal",
@@ -17037,7 +17047,7 @@
     {
         "path": "/tui-mines-is-classic-minesweeper-action-in-a-linux-terminal/index.html",
         "type": "file",
-        "md5": "fd364d8e9dcee395fe61672c4292115e"
+        "md5": "37b7d99b9d22b1434f4aaaeae6ea961e"
     },
     {
         "path": "turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet",
@@ -17047,7 +17057,7 @@
     {
         "path": "/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/index.html",
         "type": "file",
-        "md5": "477e8a143b294c5767622b3ef05d5c1a"
+        "md5": "99ca3b48775870c1d76a0d69437459af"
     },
     {
         "path": "twitter-is-the-united-states-of-the-internet-and-citizens-wont-leave-no-matter-whos-in-charge",
@@ -17057,7 +17067,7 @@
     {
         "path": "/twitter-is-the-united-states-of-the-internet-and-citizens-wont-leave-no-matter-whos-in-charge/index.html",
         "type": "file",
-        "md5": "a735cc320e141ce3d69ae9194848b7dc"
+        "md5": "ad28aaa1d005706ec5a81660487cbb7c"
     },
     {
         "path": "use-github-rss-feeds-to-stay-up-to-date-with-your-favourite-projects",
@@ -17067,7 +17077,7 @@
     {
         "path": "/use-github-rss-feeds-to-stay-up-to-date-with-your-favourite-projects/index.html",
         "type": "file",
-        "md5": "f2e73fdf7f27d765fabacb40c84ca28e"
+        "md5": "5dfb38807ed4edd7316915b1d7794922"
     },
     {
         "path": "use-obfuscate-to-easily-censor-private-information-in-images",
@@ -17077,7 +17087,7 @@
     {
         "path": "/use-obfuscate-to-easily-censor-private-information-in-images/index.html",
         "type": "file",
-        "md5": "777e4724f466f1f4aab1a52a601f7fd2"
+        "md5": "43a7302039533d3c8cdea04ed1523585"
     },
     {
         "path": "want-to-easily-create-a-good-looking-website-in-minutes-this-is-how",
@@ -17087,7 +17097,7 @@
     {
         "path": "/want-to-easily-create-a-good-looking-website-in-minutes-this-is-how/index.html",
         "type": "file",
-        "md5": "0a6a6d7fa87f80bb8d988b54550c6f0e"
+        "md5": "81195caef4515508341b62b580e0d69f"
     },
     {
         "path": "why-does-this-site-look-like-crap",
@@ -17097,7 +17107,7 @@
     {
         "path": "/why-does-this-site-look-like-crap/index.html",
         "type": "file",
-        "md5": "54690f143c648ab71a84fe94039c40c1"
+        "md5": "f9240a92f80d386f0ffec1944a2a152e"
     },
     {
         "path": "windy-out-how-to-check-the-weather-moon-phase-and-more-from-your-linux-terminal",
@@ -17107,7 +17117,7 @@
     {
         "path": "/windy-out-how-to-check-the-weather-moon-phase-and-more-from-your-linux-terminal/index.html",
         "type": "file",
-        "md5": "f0bb06ee20262bee785717111fc91615"
+        "md5": "ef239d1eea54f0aac6207b6704d6161a"
     },
     {
         "path": "your-data-wants-to-be-free-but-only-because-youre-a-terrible-admin",
@@ -17117,7 +17127,7 @@
     {
         "path": "/your-data-wants-to-be-free-but-only-because-youre-a-terrible-admin/index.html",
         "type": "file",
-        "md5": "0893da3bc7b2e28a9b71a44b77980815"
+        "md5": "cb53e703969c72c60fbe89a83b3fe22b"
     },
     {
         "path": "your-email-is-leaking-how-much-data-you-give-away-without-ever-realising",
@@ -17127,6 +17137,6 @@
     {
         "path": "/your-email-is-leaking-how-much-data-you-give-away-without-ever-realising/index.html",
         "type": "file",
-        "md5": "0ea757b00215adfc8f5e5fcdef453df7"
+        "md5": "de4c1a49a664763acdc13f45f66578ff"
     }
 ]
